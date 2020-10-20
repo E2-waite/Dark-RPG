@@ -1,0 +1,5561 @@
+fileFormatVersion: 2
+guid: 92206d454ef586c418029dc79c0b7186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -233232510313796456
+    second: Longsword - metal helm_0
+  - first:
+      213: 2535589115239733807
+    second: Longsword - metal helm_1
+  - first:
+      213: -5757691628284947251
+    second: Longsword - metal helm_2
+  - first:
+      213: -2158126862424581279
+    second: Longsword - metal helm_3
+  - first:
+      213: 6359992976034850448
+    second: Longsword - metal helm_4
+  - first:
+      213: 7500355248983975795
+    second: Longsword - metal helm_5
+  - first:
+      213: 6383173182472042736
+    second: Longsword - metal helm_6
+  - first:
+      213: 5096357796440195766
+    second: Longsword - metal helm_7
+  - first:
+      213: -7209680274219483888
+    second: Longsword - metal helm_8
+  - first:
+      213: -454252332436274488
+    second: Longsword - metal helm_9
+  - first:
+      213: -135752353616083414
+    second: Longsword - metal helm_10
+  - first:
+      213: -751461062428746963
+    second: Longsword - metal helm_11
+  - first:
+      213: -119090435472299904
+    second: Longsword - metal helm_12
+  - first:
+      213: 4179789858381376311
+    second: Longsword - metal helm_13
+  - first:
+      213: 4242065835019630508
+    second: Longsword - metal helm_14
+  - first:
+      213: -8137322838205703931
+    second: Longsword - metal helm_15
+  - first:
+      213: 7180281862459650770
+    second: Longsword - metal helm_16
+  - first:
+      213: 896875164846605423
+    second: Longsword - metal helm_17
+  - first:
+      213: -6743785491140444050
+    second: Longsword - metal helm_18
+  - first:
+      213: 8928020742560685864
+    second: Longsword - metal helm_19
+  - first:
+      213: 7058886417340561097
+    second: Longsword - metal helm_20
+  - first:
+      213: 414752355671836137
+    second: Longsword - metal helm_21
+  - first:
+      213: -8267611354959772345
+    second: Longsword - metal helm_22
+  - first:
+      213: 678791107989659104
+    second: Longsword - metal helm_23
+  - first:
+      213: -5988696116074736863
+    second: Longsword - metal helm_24
+  - first:
+      213: -7128173221701746973
+    second: Longsword - metal helm_25
+  - first:
+      213: 5430244418613294778
+    second: Longsword - metal helm_26
+  - first:
+      213: 596886695927508098
+    second: Longsword - metal helm_27
+  - first:
+      213: 547205419954616223
+    second: Longsword - metal helm_28
+  - first:
+      213: 550045778590508918
+    second: Longsword - metal helm_29
+  - first:
+      213: 4583226018931280766
+    second: Longsword - metal helm_30
+  - first:
+      213: 6921953996837497204
+    second: Longsword - metal helm_31
+  - first:
+      213: -2153939744017851848
+    second: Longsword - metal helm_32
+  - first:
+      213: 82630418446318357
+    second: Longsword - metal helm_33
+  - first:
+      213: 7088483204044100068
+    second: Longsword - metal helm_34
+  - first:
+      213: -8374494195772302155
+    second: Longsword - metal helm_35
+  - first:
+      213: 6948055207239130135
+    second: Longsword - metal helm_36
+  - first:
+      213: -6031586440995024371
+    second: Longsword - metal helm_37
+  - first:
+      213: -1741311315198469497
+    second: Longsword - metal helm_38
+  - first:
+      213: -7739362718085717950
+    second: Longsword - metal helm_39
+  - first:
+      213: -5658015127669584413
+    second: Longsword - metal helm_40
+  - first:
+      213: 1319520371037845227
+    second: Longsword - metal helm_41
+  - first:
+      213: -3675024302804646861
+    second: Longsword - metal helm_42
+  - first:
+      213: 2605728845924582339
+    second: Longsword - metal helm_43
+  - first:
+      213: -7129526534300452246
+    second: Longsword - metal helm_44
+  - first:
+      213: -2157445419535723854
+    second: Longsword - metal helm_45
+  - first:
+      213: -5987340674910556298
+    second: Longsword - metal helm_46
+  - first:
+      213: 1522231869582401098
+    second: Longsword - metal helm_47
+  - first:
+      213: 3558165820460564652
+    second: Longsword - metal helm_48
+  - first:
+      213: 5835734557400547572
+    second: Longsword - metal helm_49
+  - first:
+      213: -9029939614982946645
+    second: Longsword - metal helm_50
+  - first:
+      213: -388282261996327278
+    second: Longsword - metal helm_51
+  - first:
+      213: 4057670749616143311
+    second: Longsword - metal helm_52
+  - first:
+      213: -8579730223719843099
+    second: Longsword - metal helm_53
+  - first:
+      213: 8850120419185275562
+    second: Longsword - metal helm_54
+  - first:
+      213: 4374057984158633013
+    second: Longsword - metal helm_55
+  - first:
+      213: -7394663399729587159
+    second: Longsword - metal helm_56
+  - first:
+      213: -1704972598170247792
+    second: Longsword - metal helm_57
+  - first:
+      213: 5888282106886929550
+    second: Longsword - metal helm_58
+  - first:
+      213: -2725503874345054258
+    second: Longsword - metal helm_59
+  - first:
+      213: 3494458639284971367
+    second: Longsword - metal helm_60
+  - first:
+      213: 6988915263641618928
+    second: Longsword - metal helm_61
+  - first:
+      213: -366164102387420545
+    second: Longsword - metal helm_62
+  - first:
+      213: -5662325816997366342
+    second: Longsword - metal helm_63
+  - first:
+      213: -2492623600965617979
+    second: Longsword - metal helm_64
+  - first:
+      213: -8392874151754948420
+    second: Longsword - metal helm_65
+  - first:
+      213: 468495668712769138
+    second: Longsword - metal helm_66
+  - first:
+      213: 3348582686506680241
+    second: Longsword - metal helm_67
+  - first:
+      213: 6287823937484925869
+    second: Longsword - metal helm_68
+  - first:
+      213: -6165386436397026270
+    second: Longsword - metal helm_69
+  - first:
+      213: 8421503193626128883
+    second: Longsword - metal helm_70
+  - first:
+      213: 4579557603931710933
+    second: Longsword - metal helm_71
+  - first:
+      213: 8051588077771286169
+    second: Longsword - metal helm_72
+  - first:
+      213: 3612250108108452543
+    second: Longsword - metal helm_73
+  - first:
+      213: -7557257401207061760
+    second: Longsword - metal helm_74
+  - first:
+      213: -792450208316521358
+    second: Longsword - metal helm_75
+  - first:
+      213: -1455331179664136557
+    second: Longsword - metal helm_76
+  - first:
+      213: 5927005939126488436
+    second: Longsword - metal helm_77
+  - first:
+      213: 7585448731163578854
+    second: Longsword - metal helm_78
+  - first:
+      213: 3876918710768056340
+    second: Longsword - metal helm_79
+  - first:
+      213: 1137677800423785448
+    second: Longsword - metal helm_80
+  - first:
+      213: 578997417134074067
+    second: Longsword - metal helm_81
+  - first:
+      213: -1872295297771078293
+    second: Longsword - metal helm_82
+  - first:
+      213: -8632429832642953456
+    second: Longsword - metal helm_83
+  - first:
+      213: 7670275982963294629
+    second: Longsword - metal helm_84
+  - first:
+      213: -4355320241889093041
+    second: Longsword - metal helm_85
+  - first:
+      213: -7701598811005029208
+    second: Longsword - metal helm_86
+  - first:
+      213: -612962018204147865
+    second: Longsword - metal helm_87
+  - first:
+      213: 4106400450242322229
+    second: Longsword - metal helm_88
+  - first:
+      213: 7946934411663328513
+    second: Longsword - metal helm_89
+  - first:
+      213: -7277186204825327348
+    second: Longsword - metal helm_90
+  - first:
+      213: -2875401956094923282
+    second: Longsword - metal helm_91
+  - first:
+      213: -8064172009915399380
+    second: Longsword - metal helm_92
+  - first:
+      213: 1361264280465297448
+    second: Longsword - metal helm_93
+  - first:
+      213: 533533185470588567
+    second: Longsword - metal helm_94
+  - first:
+      213: -5741271713580738708
+    second: Longsword - metal helm_95
+  - first:
+      213: 1586076592085728360
+    second: Longsword - metal helm_96
+  - first:
+      213: -7344459407706079636
+    second: Longsword - metal helm_97
+  - first:
+      213: 2674905536709396176
+    second: Longsword - metal helm_98
+  - first:
+      213: 1273990085995745561
+    second: Longsword - metal helm_99
+  - first:
+      213: -6866082652900591474
+    second: Longsword - metal helm_100
+  - first:
+      213: 3852711108407836206
+    second: Longsword - metal helm_101
+  - first:
+      213: -2627809479809729609
+    second: Longsword - metal helm_102
+  - first:
+      213: 5066088374982714380
+    second: Longsword - metal helm_103
+  - first:
+      213: 391024375148146782
+    second: Longsword - metal helm_104
+  - first:
+      213: -3377283462198909999
+    second: Longsword - metal helm_105
+  - first:
+      213: 3917994043410453662
+    second: Longsword - metal helm_106
+  - first:
+      213: 1280292099521621114
+    second: Longsword - metal helm_107
+  - first:
+      213: -7628315535735163250
+    second: Longsword - metal helm_108
+  - first:
+      213: -7619230073320814221
+    second: Longsword - metal helm_109
+  - first:
+      213: 5304505830487004366
+    second: Longsword - metal helm_110
+  - first:
+      213: 1458283982940679677
+    second: Longsword - metal helm_111
+  - first:
+      213: -5499685652256232238
+    second: Longsword - metal helm_112
+  - first:
+      213: 6305224652109822779
+    second: Longsword - metal helm_113
+  - first:
+      213: 1116352952274942448
+    second: Longsword - metal helm_114
+  - first:
+      213: 5986142452446544411
+    second: Longsword - metal helm_115
+  - first:
+      213: -4369934013350045286
+    second: Longsword - metal helm_116
+  - first:
+      213: -7922177322818750224
+    second: Longsword - metal helm_117
+  - first:
+      213: -5119382624789264471
+    second: Longsword - metal helm_118
+  - first:
+      213: 5030113519289614083
+    second: Longsword - metal helm_119
+  - first:
+      213: -2456161702833204596
+    second: Longsword - metal helm_120
+  - first:
+      213: 2922318290456752515
+    second: Longsword - metal helm_121
+  - first:
+      213: 6892864642318155386
+    second: Longsword - metal helm_122
+  - first:
+      213: -1122688008707817541
+    second: Longsword - metal helm_123
+  - first:
+      213: -23629053255888663
+    second: Longsword - metal helm_124
+  - first:
+      213: 2466706731038665007
+    second: Longsword - metal helm_125
+  - first:
+      213: 3711403251212539557
+    second: Longsword - metal helm_126
+  - first:
+      213: 7871147631060349086
+    second: Longsword - metal helm_127
+  - first:
+      213: 674359958858203733
+    second: Longsword - metal helm_128
+  - first:
+      213: 9176717230671223252
+    second: Longsword - metal helm_129
+  - first:
+      213: -2252431709235986188
+    second: Longsword - metal helm_130
+  - first:
+      213: 5798578819964987624
+    second: Longsword - metal helm_131
+  - first:
+      213: -1576919430994578791
+    second: Longsword - metal helm_132
+  - first:
+      213: -3992508462590190492
+    second: Longsword - metal helm_133
+  - first:
+      213: 6875672737685823012
+    second: Longsword - metal helm_134
+  - first:
+      213: 4513374842408628432
+    second: Longsword - metal helm_135
+  - first:
+      213: -4738288643217227699
+    second: Longsword - metal helm_136
+  - first:
+      213: 3311052575772111898
+    second: Longsword - metal helm_137
+  - first:
+      213: 1282457729283898126
+    second: Longsword - metal helm_138
+  - first:
+      213: -7065795799557342670
+    second: Longsword - metal helm_139
+  - first:
+      213: 7572551657720349328
+    second: Longsword - metal helm_140
+  - first:
+      213: 984431527989087830
+    second: Longsword - metal helm_141
+  - first:
+      213: 1507356058767356369
+    second: Longsword - metal helm_142
+  - first:
+      213: -3603690074033565325
+    second: Longsword - metal helm_143
+  - first:
+      213: 6107123936475453929
+    second: Longsword - metal helm_144
+  - first:
+      213: -807190076663990489
+    second: Longsword - metal helm_145
+  - first:
+      213: -3475377272970631079
+    second: Longsword - metal helm_146
+  - first:
+      213: -6604107445470649803
+    second: Longsword - metal helm_147
+  - first:
+      213: 6246289385388506570
+    second: Longsword - metal helm_148
+  - first:
+      213: 1974799729680604582
+    second: Longsword - metal helm_149
+  - first:
+      213: -5295004740022482921
+    second: Longsword - metal helm_150
+  - first:
+      213: 549399129649794899
+    second: Longsword - metal helm_151
+  - first:
+      213: -1239753388660971463
+    second: Longsword - metal helm_152
+  - first:
+      213: 4986904563254576728
+    second: Longsword - metal helm_153
+  - first:
+      213: -3815910669279974637
+    second: Longsword - metal helm_154
+  - first:
+      213: -8100646436541080197
+    second: Longsword - metal helm_155
+  - first:
+      213: -1528291483993431293
+    second: Longsword - metal helm_156
+  - first:
+      213: 3083369982939647856
+    second: Longsword - metal helm_157
+  - first:
+      213: -1390812211059844194
+    second: Longsword - metal helm_158
+  - first:
+      213: -919368281173058297
+    second: Longsword - metal helm_159
+  - first:
+      213: 1955794292116325771
+    second: Longsword - metal helm_160
+  - first:
+      213: 3885725319165410899
+    second: Longsword - metal helm_161
+  - first:
+      213: -5382531882238938091
+    second: Longsword - metal helm_162
+  - first:
+      213: -3977996266563697072
+    second: Longsword - metal helm_163
+  - first:
+      213: 2321514541686590919
+    second: Longsword - metal helm_164
+  - first:
+      213: 7433308213505831024
+    second: Longsword - metal helm_165
+  - first:
+      213: -698631236608290363
+    second: Longsword - metal helm_166
+  - first:
+      213: -6083154874867965487
+    second: Longsword - metal helm_167
+  - first:
+      213: 7241019005554003281
+    second: Longsword - metal helm_168
+  - first:
+      213: -8391735744713894242
+    second: Longsword - metal helm_169
+  - first:
+      213: -8470082934562242334
+    second: Longsword - metal helm_170
+  - first:
+      213: -1803594503085242491
+    second: Longsword - metal helm_171
+  - first:
+      213: -1142598379167247917
+    second: Longsword - metal helm_172
+  - first:
+      213: 281346634498183157
+    second: Longsword - metal helm_173
+  - first:
+      213: -8271910017569782693
+    second: Longsword - metal helm_174
+  - first:
+      213: 5548272923011161254
+    second: Longsword - metal helm_175
+  - first:
+      213: 4904028558893019457
+    second: Longsword - metal helm_176
+  - first:
+      213: 8731002769149738253
+    second: Longsword - metal helm_177
+  - first:
+      213: 6028370598302535658
+    second: Longsword - metal helm_178
+  - first:
+      213: -5315224296947390947
+    second: Longsword - metal helm_179
+  - first:
+      213: -3758722004871774372
+    second: Longsword - metal helm_180
+  - first:
+      213: -346287875440038007
+    second: Longsword - metal helm_181
+  - first:
+      213: 8658044050919101425
+    second: Longsword - metal helm_182
+  - first:
+      213: 3877163474109804025
+    second: Longsword - metal helm_183
+  - first:
+      213: 1856014040476437484
+    second: Longsword - metal helm_184
+  - first:
+      213: -8414196878681874342
+    second: Longsword - metal helm_185
+  - first:
+      213: -7076555016388722636
+    second: Longsword - metal helm_186
+  - first:
+      213: -3615464337303446224
+    second: Longsword - metal helm_187
+  - first:
+      213: -7987585991542433307
+    second: Longsword - metal helm_188
+  - first:
+      213: -9074435942889644752
+    second: Longsword - metal helm_189
+  - first:
+      213: 7532158101605378141
+    second: Longsword - metal helm_190
+  - first:
+      213: 7715403620115095185
+    second: Longsword - metal helm_191
+  - first:
+      213: 8233457363970152502
+    second: Longsword - metal helm_192
+  - first:
+      213: -1088183785299030475
+    second: Longsword - metal helm_193
+  - first:
+      213: -3580256898941205211
+    second: Longsword - metal helm_194
+  - first:
+      213: 8190319640213675556
+    second: Longsword - metal helm_195
+  - first:
+      213: 5578257783562666920
+    second: Longsword - metal helm_196
+  - first:
+      213: -8521168551520058625
+    second: Longsword - metal helm_197
+  - first:
+      213: -7766585482435659272
+    second: Longsword - metal helm_198
+  - first:
+      213: 2411235423013545063
+    second: Longsword - metal helm_199
+  - first:
+      213: -8885412949636090965
+    second: Longsword - metal helm_200
+  - first:
+      213: -7380277309023925199
+    second: Longsword - metal helm_201
+  - first:
+      213: 7635511615006215622
+    second: Longsword - metal helm_202
+  - first:
+      213: 783028573845243481
+    second: Longsword - metal helm_0
+  - first:
+      213: 8118435543535835208
+    second: Longsword - metal helm_1
+  - first:
+      213: 5609133887172374471
+    second: Longsword - metal helm_2
+  - first:
+      213: -7685718328569671461
+    second: Longsword - metal helm_3
+  - first:
+      213: -802280001034316726
+    second: Longsword - metal helm_4
+  - first:
+      213: 710518674793616166
+    second: Longsword - metal helm_5
+  - first:
+      213: 3603457386936268061
+    second: Longsword - metal helm_6
+  - first:
+      213: -2156629133825097704
+    second: Longsword - metal helm_7
+  - first:
+      213: -2012022844015374029
+    second: Longsword - metal helm_8
+  - first:
+      213: -2927781741419490035
+    second: Longsword - metal helm_9
+  - first:
+      213: -7887396863087228307
+    second: Longsword - metal helm_10
+  - first:
+      213: -2158394071571956872
+    second: Longsword - metal helm_11
+  - first:
+      213: 1873356246207145041
+    second: Longsword - metal helm_12
+  - first:
+      213: -7283679829205379087
+    second: Longsword - metal helm_13
+  - first:
+      213: 5003131759513493524
+    second: Longsword - metal helm_14
+  - first:
+      213: -4728372001180115020
+    second: Longsword - metal helm_15
+  - first:
+      213: -5458619027397318016
+    second: Longsword - metal helm_16
+  - first:
+      213: -7128106338897857793
+    second: Longsword - metal helm_17
+  - first:
+      213: -1599583776952267725
+    second: Longsword - metal helm_18
+  - first:
+      213: -6561204846502197011
+    second: Longsword - metal helm_19
+  - first:
+      213: -1941057011463343909
+    second: Longsword - metal helm_20
+  - first:
+      213: -388781708807708362
+    second: Longsword - metal helm_21
+  - first:
+      213: -5814080704185698819
+    second: Longsword - metal helm_22
+  - first:
+      213: 9110412214970974727
+    second: Longsword - metal helm_23
+  - first:
+      213: -8157301151727275144
+    second: Longsword - metal helm_24
+  - first:
+      213: 8007192010596456487
+    second: Longsword - metal helm_25
+  - first:
+      213: -4875399140984879384
+    second: Longsword - metal helm_26
+  - first:
+      213: 6272971239984057010
+    second: Longsword - metal helm_27
+  - first:
+      213: 7547761999640365648
+    second: Longsword - metal helm_28
+  - first:
+      213: 4308149340018371732
+    second: Longsword - metal helm_29
+  - first:
+      213: 3593148414781301030
+    second: Longsword - metal helm_30
+  - first:
+      213: -6848976703744749692
+    second: Longsword - metal helm_31
+  - first:
+      213: -6613928257450907917
+    second: Longsword - metal helm_32
+  - first:
+      213: 2277787715659952737
+    second: Longsword - metal helm_33
+  - first:
+      213: -240456105881964677
+    second: Longsword - metal helm_34
+  - first:
+      213: -5549012758202062798
+    second: Longsword - metal helm_35
+  - first:
+      213: 1526926462376420005
+    second: Longsword - metal helm_36
+  - first:
+      213: -7810819616701617025
+    second: Longsword - metal helm_37
+  - first:
+      213: 3685769833263522974
+    second: Longsword - metal helm_38
+  - first:
+      213: 8140305510398244484
+    second: Longsword - metal helm_39
+  - first:
+      213: 4455498994176035836
+    second: Longsword - metal helm_40
+  - first:
+      213: -6640139950767131960
+    second: Longsword - metal helm_41
+  - first:
+      213: 5536332725359853484
+    second: Longsword - metal helm_42
+  - first:
+      213: 6973540833819244886
+    second: Longsword - metal helm_43
+  - first:
+      213: -4868297076706938285
+    second: Longsword - metal helm_44
+  - first:
+      213: 2055056657526379600
+    second: Longsword - metal helm_45
+  - first:
+      213: -8135246827594228310
+    second: Longsword - metal helm_46
+  - first:
+      213: 1147994121385683769
+    second: Longsword - metal helm_47
+  - first:
+      213: 6699282608031956573
+    second: Longsword - metal helm_48
+  - first:
+      213: -4844288372125124433
+    second: Longsword - metal helm_49
+  - first:
+      213: 650541307028637920
+    second: Longsword - metal helm_50
+  - first:
+      213: 5785639049491374385
+    second: Longsword - metal helm_51
+  - first:
+      213: -340453029904410207
+    second: Longsword - metal helm_52
+  - first:
+      213: 8258898550621739022
+    second: Longsword - metal helm_53
+  - first:
+      213: 926950662435498455
+    second: Longsword - metal helm_54
+  - first:
+      213: -787434964588092138
+    second: Longsword - metal helm_55
+  - first:
+      213: 1663189311994382645
+    second: Longsword - metal helm_56
+  - first:
+      213: -7419479617887334375
+    second: Longsword - metal helm_57
+  - first:
+      213: 8599379257502284972
+    second: Longsword - metal helm_58
+  - first:
+      213: -3201811914914163992
+    second: Longsword - metal helm_59
+  - first:
+      213: 6633436034532136183
+    second: Longsword - metal helm_60
+  - first:
+      213: -4300726930930153054
+    second: Longsword - metal helm_61
+  - first:
+      213: 3106438559505004903
+    second: Longsword - metal helm_62
+  - first:
+      213: -7758632542856525487
+    second: Longsword - metal helm_63
+  - first:
+      213: 8390953835388867494
+    second: Longsword - metal helm_64
+  - first:
+      213: 7532795102909886785
+    second: Longsword - metal helm_65
+  - first:
+      213: 1314508726160528616
+    second: Longsword - metal helm_66
+  - first:
+      213: -9129731899126885926
+    second: Longsword - metal helm_67
+  - first:
+      213: -165137269041380308
+    second: Longsword - metal helm_68
+  - first:
+      213: 7584506752877369844
+    second: Longsword - metal helm_69
+  - first:
+      213: 5877375769742531740
+    second: Longsword - metal helm_70
+  - first:
+      213: -4936942900715499122
+    second: Longsword - metal helm_71
+  - first:
+      213: -5251171366645373463
+    second: Longsword - metal helm_72
+  - first:
+      213: 8677145046851484844
+    second: Longsword - metal helm_73
+  - first:
+      213: 6736375278797619903
+    second: Longsword - metal helm_74
+  - first:
+      213: -8916211367019702064
+    second: Longsword - metal helm_75
+  - first:
+      213: 6434300915119541961
+    second: Longsword - metal helm_76
+  - first:
+      213: -8222376244151971051
+    second: Longsword - metal helm_77
+  - first:
+      213: 1604500558327922029
+    second: Longsword - metal helm_78
+  - first:
+      213: 7371035080889784635
+    second: Longsword - metal helm_79
+  - first:
+      213: 269213506589189552
+    second: Longsword - metal helm_80
+  - first:
+      213: -2924792963132491052
+    second: Longsword - metal helm_81
+  - first:
+      213: -5219097282988802748
+    second: Longsword - metal helm_82
+  - first:
+      213: -6817866539749020699
+    second: Longsword - metal helm_83
+  - first:
+      213: 4018719629656624757
+    second: Longsword - metal helm_84
+  - first:
+      213: -440157425929364249
+    second: Longsword - metal helm_85
+  - first:
+      213: 763900601596487777
+    second: Longsword - metal helm_86
+  - first:
+      213: 2479045160455290361
+    second: Longsword - metal helm_87
+  - first:
+      213: 2387717279556212140
+    second: Longsword - metal helm_88
+  - first:
+      213: -5862447706890961742
+    second: Longsword - metal helm_89
+  - first:
+      213: -1164792028009948051
+    second: Longsword - metal helm_90
+  - first:
+      213: -7208495697203492172
+    second: Longsword - metal helm_91
+  - first:
+      213: 1812593091503590196
+    second: Longsword - metal helm_92
+  - first:
+      213: -5318877936824099729
+    second: Longsword - metal helm_93
+  - first:
+      213: 5028961539708243374
+    second: Longsword - metal helm_94
+  - first:
+      213: 804737704379048141
+    second: Longsword - metal helm_95
+  - first:
+      213: 3742207234670211713
+    second: Longsword - metal helm_96
+  - first:
+      213: -6504783183095170953
+    second: Longsword - metal helm_97
+  - first:
+      213: -6800008602652088593
+    second: Longsword - metal helm_98
+  - first:
+      213: -9043093149615351201
+    second: Longsword - metal helm_99
+  - first:
+      213: 5682695733206484186
+    second: Longsword - metal helm_100
+  - first:
+      213: 1623412850020009130
+    second: Longsword - metal helm_101
+  - first:
+      213: 5492026634941294485
+    second: Longsword - metal helm_102
+  - first:
+      213: 5313208882418483961
+    second: Longsword - metal helm_103
+  - first:
+      213: 2519553669099198856
+    second: Longsword - metal helm_104
+  - first:
+      213: 6262815667212985992
+    second: Longsword - metal helm_105
+  - first:
+      213: -8573652573570830240
+    second: Longsword - metal helm_106
+  - first:
+      213: -2585333813372950665
+    second: Longsword - metal helm_107
+  - first:
+      213: -7301009095627354537
+    second: Longsword - metal helm_108
+  - first:
+      213: -6754122487759908414
+    second: Longsword - metal helm_109
+  - first:
+      213: -515966582593300198
+    second: Longsword - metal helm_110
+  - first:
+      213: 7442476680407374830
+    second: Longsword - metal helm_111
+  - first:
+      213: -7254708499375888081
+    second: Longsword - metal helm_112
+  - first:
+      213: 6506687631341409111
+    second: Longsword - metal helm_113
+  - first:
+      213: 13033092852497622
+    second: Longsword - metal helm_114
+  - first:
+      213: -4828666458464480514
+    second: Longsword - metal helm_115
+  - first:
+      213: 7809607918527501895
+    second: Longsword - metal helm_116
+  - first:
+      213: -2775968754993838601
+    second: Longsword - metal helm_117
+  - first:
+      213: 6978498435168630109
+    second: Longsword - metal helm_118
+  - first:
+      213: -4400868788390658723
+    second: Longsword - metal helm_119
+  - first:
+      213: -7022897951133373171
+    second: Longsword - metal helm_120
+  - first:
+      213: 2334206676657614289
+    second: Longsword - metal helm_121
+  - first:
+      213: -3548000187746492605
+    second: Longsword - metal helm_122
+  - first:
+      213: -8043235412504235590
+    second: Longsword - metal helm_123
+  - first:
+      213: -7238913172482150555
+    second: Longsword - metal helm_124
+  - first:
+      213: -6506785976901460876
+    second: Longsword - metal helm_125
+  - first:
+      213: -2379636167716184582
+    second: Longsword - metal helm_126
+  - first:
+      213: 2726728381599775330
+    second: Longsword - metal helm_127
+  - first:
+      213: -4152826336008039617
+    second: Longsword - metal helm_128
+  - first:
+      213: 3435864386398880350
+    second: Longsword - metal helm_129
+  - first:
+      213: 3550984006103367184
+    second: Longsword - metal helm_130
+  - first:
+      213: 5515209287887654940
+    second: Longsword - metal helm_131
+  - first:
+      213: -5773415170924767653
+    second: Longsword - metal helm_132
+  - first:
+      213: -2245772649285152663
+    second: Longsword - metal helm_133
+  - first:
+      213: -3706245040722084561
+    second: Longsword - metal helm_134
+  - first:
+      213: -5090510842031344038
+    second: Longsword - metal helm_135
+  - first:
+      213: -7277923219753356344
+    second: Longsword - metal helm_136
+  - first:
+      213: 5021619486043228754
+    second: Longsword - metal helm_137
+  - first:
+      213: -269929835568026915
+    second: Longsword - metal helm_138
+  - first:
+      213: -226798348856781698
+    second: Longsword - metal helm_139
+  - first:
+      213: -4926542254306922266
+    second: Longsword - metal helm_140
+  - first:
+      213: -6559114186022278422
+    second: Longsword - metal helm_141
+  - first:
+      213: 5911412840643879573
+    second: Longsword - metal helm_142
+  - first:
+      213: -5770667136339185136
+    second: Longsword - metal helm_143
+  - first:
+      213: 8197406893355343723
+    second: Longsword - metal helm_144
+  - first:
+      213: 8694395065582417997
+    second: Longsword - metal helm_145
+  - first:
+      213: 5196183638796578971
+    second: Longsword - metal helm_146
+  - first:
+      213: -8578894425703827622
+    second: Longsword - metal helm_147
+  - first:
+      213: 4193147474458193459
+    second: Longsword - metal helm_148
+  - first:
+      213: 561113479650521142
+    second: Longsword - metal helm_149
+  - first:
+      213: -8262269511365865493
+    second: Longsword - metal helm_150
+  - first:
+      213: 5929960227336452800
+    second: Longsword - metal helm_151
+  - first:
+      213: 844195013304285372
+    second: Longsword - metal helm_152
+  - first:
+      213: -2385684086047607101
+    second: Longsword - metal helm_153
+  - first:
+      213: -3370981036140285206
+    second: Longsword - metal helm_154
+  - first:
+      213: -1082351425992231500
+    second: Longsword - metal helm_155
+  - first:
+      213: -2664712129898602057
+    second: Longsword - metal helm_156
+  - first:
+      213: -3487026145772040709
+    second: Longsword - metal helm_157
+  - first:
+      213: -6781367134410905687
+    second: Longsword - metal helm_158
+  - first:
+      213: -225980222877673549
+    second: Longsword - metal helm_159
+  - first:
+      213: -3748826112720074111
+    second: Longsword - metal helm_160
+  - first:
+      213: 1090038059472930472
+    second: Longsword - metal helm_161
+  - first:
+      213: 4603981319381626077
+    second: Longsword - metal helm_162
+  - first:
+      213: 1697887086900934429
+    second: Longsword - metal helm_163
+  - first:
+      213: 596998365127193936
+    second: Longsword - metal helm_164
+  - first:
+      213: 2442907624124583968
+    second: Longsword - metal helm_165
+  - first:
+      213: -1798424718596886012
+    second: Longsword - metal helm_166
+  - first:
+      213: -98532656776798395
+    second: Longsword - metal helm_167
+  - first:
+      213: -5185219304346882089
+    second: Longsword - metal helm_168
+  - first:
+      213: -2568722304399710310
+    second: Longsword - metal helm_169
+  - first:
+      213: 2191194373201817173
+    second: Longsword - metal helm_170
+  - first:
+      213: -2922665181565588591
+    second: Longsword - metal helm_171
+  - first:
+      213: 3802023817234689037
+    second: Longsword - metal helm_172
+  - first:
+      213: 2941859615038532417
+    second: Longsword - metal helm_173
+  - first:
+      213: -8726025798271419780
+    second: Longsword - metal helm_174
+  - first:
+      213: 1796992164435575303
+    second: Longsword - metal helm_175
+  - first:
+      213: 2289657091238411356
+    second: Longsword - metal helm_176
+  - first:
+      213: -5436591793881926484
+    second: Longsword - metal helm_177
+  - first:
+      213: -3498104090670947598
+    second: Longsword - metal helm_178
+  - first:
+      213: -662106508109068891
+    second: Longsword - metal helm_179
+  - first:
+      213: -4015059299198197153
+    second: Longsword - metal helm_180
+  - first:
+      213: 1995108966962503563
+    second: Longsword - metal helm_181
+  - first:
+      213: -2192155055780511069
+    second: Longsword - metal helm_182
+  - first:
+      213: -1948361714614832263
+    second: Longsword - metal helm_183
+  - first:
+      213: 7499029176322545353
+    second: Longsword - metal helm_184
+  - first:
+      213: 2846818673363080432
+    second: Longsword - metal helm_185
+  - first:
+      213: -4644106764653892172
+    second: Longsword - metal helm_186
+  - first:
+      213: 8383371939874970622
+    second: Longsword - metal helm_187
+  - first:
+      213: 8660079315693006728
+    second: Longsword - metal helm_188
+  - first:
+      213: 8123125571009429821
+    second: Longsword - metal helm_189
+  - first:
+      213: -4026870832846215587
+    second: Longsword - metal helm_190
+  - first:
+      213: -2857888414443493825
+    second: Longsword - metal helm_191
+  - first:
+      213: -265385140350575681
+    second: Longsword - metal helm_192
+  - first:
+      213: 5584947549698382705
+    second: Longsword - metal helm_193
+  - first:
+      213: 7463534814910155027
+    second: Longsword - metal helm_194
+  - first:
+      213: 4514552525087318201
+    second: Longsword - metal helm_195
+  - first:
+      213: 6616453086523438031
+    second: Longsword - metal helm_196
+  - first:
+      213: -2678873869286021024
+    second: Longsword - metal helm_197
+  - first:
+      213: 4198704011428437157
+    second: Longsword - metal helm_198
+  - first:
+      213: 24704659120873837
+    second: Longsword - metal helm_199
+  - first:
+      213: 4012193223615428857
+    second: Longsword - metal helm_200
+  - first:
+      213: -8768342259993350532
+    second: Longsword - metal helm_201
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Longsword - metal helm_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2049
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956c609d650edda00800000000000000
+      internalID: 783028573845243481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2049
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848db501d1a7aa070800000000000000
+      internalID: 8118435543535835208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2049
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe38a4d85a7dd40800000000000000
+      internalID: 5609133887172374471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd055ed96e7d65590800000000000000
+      internalID: -7685718328569671461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4413f7f69abdd4f0800000000000000
+      internalID: -802280001034316726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2049
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623da5168f44cd900800000000000000
+      internalID: 710518674793616166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2049
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f797c66d020230800000000000000
+      internalID: 3603457386936268061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1984
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810c816aa3d1212e0800000000000000
+      internalID: -2156629133825097704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1984
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3311e7e22ebd314e0800000000000000
+      internalID: -2012022844015374029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1984
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0511daa40e6e57d0800000000000000
+      internalID: -2927781741419490035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1984
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac72d97565a8290800000000000000
+      internalID: -7887396863087228307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1984
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bf4ae0708db02e0800000000000000
+      internalID: -2158394071571956872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1984
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154afe8949f7ff910800000000000000
+      internalID: 1873356246207145041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1984
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7198239cb2bea90800000000000000
+      internalID: -7283679829205379087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410e64ad3d1be6540800000000000000
+      internalID: 5003131759513493524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf91c787b2716eb0800000000000000
+      internalID: -4728372001180115020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1919
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a6bc36ae61f34b0800000000000000
+      internalID: -5458619027397318016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1919
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff278c41d01e31d90800000000000000
+      internalID: -7128106338897857793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1919
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4842a7032dc9e0800000000000000
+      internalID: -1599583776952267725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1919
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de84aa174fae1f4a0800000000000000
+      internalID: -6561204846502197011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1919
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd032f6aeeaff05e0800000000000000
+      internalID: -1941057011463343909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1856
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631e85f7815ca9af0800000000000000
+      internalID: -388781708807708362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1856
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5fe83676c305fa0800000000000000
+      internalID: -5814080704185698819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1856
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70289b6f3afae6e70800000000000000
+      internalID: 9110412214970974727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1856
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873396d52d17bce80800000000000000
+      internalID: -8157301151727275144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1856
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72892ffa5b24f1f60800000000000000
+      internalID: 8007192010596456487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1856
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e60a5fef4a175cb0800000000000000
+      internalID: -4875399140984879384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1856
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bacd7d6b121e0750800000000000000
+      internalID: 6272971239984057010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1793
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a81c58c890fb860800000000000000
+      internalID: 7547761999640365648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1791
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ce02bcffe99cb30800000000000000
+      internalID: 4308149340018371732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6212c48227d6dd130800000000000000
+      internalID: 3593148414781301030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1791
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f4e52b9fb83f0a0800000000000000
+      internalID: -6848976703744749692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1791
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f668bcba4b9634a0800000000000000
+      internalID: -6613928257450907917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1791
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f8a1fbd35c9f10800000000000000
+      internalID: 2277787715659952737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1791
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fe4d8127ab9acf0800000000000000
+      internalID: -240456105881964677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1791
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238614ddb42fdf2b0800000000000000
+      internalID: -5549012758202062798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1728
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2271c078bb03510800000000000000
+      internalID: 1526926462376420005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1728
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ce8dd21f46a9390800000000000000
+      internalID: -7810819616701617025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1728
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94e583a22c762330800000000000000
+      internalID: 3685769833263522974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_39
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1727
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48631768bbc28f070800000000000000
+      internalID: 8140305510398244484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1727
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb09fc9abc15dd30800000000000000
+      internalID: 4455498994176035836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1727
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c235af45eb79d3a0800000000000000
+      internalID: -6640139950767131960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafb17de74105dc40800000000000000
+      internalID: 5536332725359853484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_43
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1727
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6593a72e07ef6c060800000000000000
+      internalID: 6973540833819244886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3527fc12a95507cb0800000000000000
+      internalID: -4868297076706938285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1664
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05459215427058c10800000000000000
+      internalID: 2055056657526379600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1664
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad5f19dc1cc91f80800000000000000
+      internalID: -8135246827594228310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1664
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b2e61329e7eef00800000000000000
+      internalID: 1147994121385683769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1664
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e72b5a902a8fc50800000000000000
+      internalID: 6699282608031956573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1664
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa83de54461a5ccb0800000000000000
+      internalID: -4844288372125124433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_50
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1664
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8092d3fdf270900800000000000000
+      internalID: 650541307028637920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1664
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131ef87df08ba4050800000000000000
+      internalID: 5785639049491374385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1600
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a997d9e5c7764bf0800000000000000
+      internalID: -340453029904410207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1600
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e081cc969708d9270800000000000000
+      internalID: 8258898550621739022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1600
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9e7ce57b03ddc00800000000000000
+      internalID: 926950662435498455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1599
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615210c52187215f0800000000000000
+      internalID: -787434964588092138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539c6a70ed5d41710800000000000000
+      internalID: 1663189311994382645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1599
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910139df896b80990800000000000000
+      internalID: -7419479617887334375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac394c8fd1275770800000000000000
+      internalID: 8599379257502284972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e29dedf601e093d0800000000000000
+      internalID: -3201811914914163992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1538
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4509e8de2be0c50800000000000000
+      internalID: 6633436034532136183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1538
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9c3fd74afb054c0800000000000000
+      internalID: -4300726930930153054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1537
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7693fd749694c1b20800000000000000
+      internalID: 3106438559505004903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1536
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159404c2fccc35490800000000000000
+      internalID: -7758632542856525487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1537
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a31e0d5e08a27470800000000000000
+      internalID: 8390953835388867494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1538
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141feb25c3dd98860800000000000000
+      internalID: 7532795102909886785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1537
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e413fcc8b21e3210800000000000000
+      internalID: 1314508726160528616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1536
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad15df9853dac4180800000000000000
+      internalID: -9129731899126885926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1537
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c244c9b578055bdf0800000000000000
+      internalID: -165137269041380308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_69
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1472
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f99ec115b4914960800000000000000
+      internalID: 7584506752877369844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1473
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cddf67f12a09150800000000000000
+      internalID: 5877375769742531740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1474
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81577eb6947c7bb0800000000000000
+      internalID: -4936942900715499122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_72
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1474
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e56664c6771027b0800000000000000
+      internalID: -5251171366645373463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_73
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1473
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac7f1652796b6870800000000000000
+      internalID: 8677145046851484844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1473
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2847e00a96c7d50800000000000000
+      internalID: 6736375278797619903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_75
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1473
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d89d767001434480800000000000000
+      internalID: -8916211367019702064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_76
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1473
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cecba7879a3b4950800000000000000
+      internalID: 6434300915119541961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_77
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1473
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51316b5be5044ed80800000000000000
+      internalID: -8222376244151971051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1407
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d3d0db1c4544610800000000000000
+      internalID: 1604500558327922029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1407
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39d0674a5d2b4660800000000000000
+      internalID: 7371035080889784635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b56cf402407cb300800000000000000
+      internalID: 269213506589189552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dafce6db4c0967d0800000000000000
+      internalID: -2924792963132491052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1407
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dfe3f4caa0297b0800000000000000
+      internalID: -5219097282988802748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1407
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebec3431821261a0800000000000000
+      internalID: -6817866539749020699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1408
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e8299063c55c730800000000000000
+      internalID: 4018719629656624757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecda36372f34e9f0800000000000000
+      internalID: -440157425929364249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1407
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168add1cc8be99a00800000000000000
+      internalID: 763900601596487777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_87
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1344
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdb61b5076576220800000000000000
+      internalID: 2479045160455290361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1345
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca592001730e22120800000000000000
+      internalID: 2387717279556212140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1346
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcf5740fd664aea0800000000000000
+      internalID: -5862447706890961742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1346
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c924562d3d5dfe0800000000000000
+      internalID: -1164792028009948051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1345
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba014b0b5746fb90800000000000000
+      internalID: -7208495697203492172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1345
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b066d20df972910800000000000000
+      internalID: 1812593091503590196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1345
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cdfe372bc8f26b0800000000000000
+      internalID: -5318877936824099729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1345
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead496330e57ac540800000000000000
+      internalID: 5028961539708243374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1345
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc060eeada00b2b00800000000000000
+      internalID: 804737704379048141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1281
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1823a6227adfee330800000000000000
+      internalID: 3742207234670211713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1280
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7787da6a82e5ab5a0800000000000000
+      internalID: -6504783183095170953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1280
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe66251343481a1a0800000000000000
+      internalID: -6800008602652088593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1280
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a986a51ba708280800000000000000
+      internalID: -9043093149615351201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1280
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4866049adfcde40800000000000000
+      internalID: 5682695733206484186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1280
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa44f39c265878610800000000000000
+      internalID: 1623412850020009130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1216
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597e8a06029973c40800000000000000
+      internalID: 5492026634941294485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1215
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f20106f35f4cb940800000000000000
+      internalID: 5313208882418483961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_104
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1215
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889903f76b047f220800000000000000
+      internalID: 2519553669099198856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1215
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8862bf1eaadf9e650800000000000000
+      internalID: 6262815667212985992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06072b4d864440980800000000000000
+      internalID: -8573652573570830240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1215
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777691c289c0f1cd0800000000000000
+      internalID: -2585333813372950665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1150
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e4c31f8ea9daa90800000000000000
+      internalID: -7301009095627354537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1150
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1d79bd1698442a0800000000000000
+      internalID: -6754122487759908414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1150
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19dd88702be6d8f0800000000000000
+      internalID: -515966582593300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb5fc0eb1df84760800000000000000
+      internalID: 7442476680407374830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1151
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2961b19e09125b90800000000000000
+      internalID: -7254708499375888081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1151
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75358824de56c4a50800000000000000
+      internalID: 6506687631341409111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_114
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1087
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc3cc5678d4e2000800000000000000
+      internalID: 13033092852497622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1086
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2916c70712dfcb0800000000000000
+      internalID: -4828666458464480514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1086
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d8ea560d416c60800000000000000
+      internalID: 7809607918527501895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1086
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f542030027c979d0800000000000000
+      internalID: -2775968754993838601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1086
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5578d56a5b98d060800000000000000
+      internalID: 6978498435168630109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1086
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dfedc5729fce2c0800000000000000
+      internalID: -4400868788390658723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d60e8b587a98e90800000000000000
+      internalID: -7022897951133373171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dda582fa94c46020800000000000000
+      internalID: 2334206676657614289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd95a90a8f2cec0800000000000000
+      internalID: -3548000187746492605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1b7d8d100b06090800000000000000
+      internalID: -8043235412504235590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f2e42b2d63a8b90800000000000000
+      internalID: -7238913172482150555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1023
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9b41e0a043b5a0800000000000000
+      internalID: -6506785976901460876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdda986385d9fed0800000000000000
+      internalID: -2379636167716184582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26afa38240947d520800000000000000
+      internalID: 2726728381599775330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f339a5433723e56c0800000000000000
+      internalID: -4152826336008039617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5288b79474aeaf20800000000000000
+      internalID: 3435864386398880350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e72eeb321a74130800000000000000
+      internalID: 3550984006103367184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c109a7260a5f98c40800000000000000
+      internalID: 5515209287887654940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b569d2cad75b0efa0800000000000000
+      internalID: -5773415170924767653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_133
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 960
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96012119ca965d0e0800000000000000
+      internalID: -2245772649285152663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 960
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2df431a5c5c09cc0800000000000000
+      internalID: -3706245040722084561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 960
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56727f1c5fda59b0800000000000000
+      internalID: -5090510842031344038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3b808446f9ffa90800000000000000
+      internalID: -7277923219753356344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a49ce115060b540800000000000000
+      internalID: 5021619486043228754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda20b4ae34014cf0800000000000000
+      internalID: -269929835568026915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 959
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e741fb47a104adcf0800000000000000
+      internalID: -226798348856781698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 959
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e07511fbe761abb0800000000000000
+      internalID: -4926542254306922266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_141
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 959
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaaae4466859f4a0800000000000000
+      internalID: -6559114186022278422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_142
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 959
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592e24798ae890250800000000000000
+      internalID: 5911412840643879573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 959
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0127b7550d87aefa0800000000000000
+      internalID: -5770667136339185136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 959
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f98c5432a03c170800000000000000
+      internalID: 8197406893355343723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48f2fc4f32b8a870800000000000000
+      internalID: 8694395065582417997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90ba2a2d7d8c1840800000000000000
+      internalID: 5196183638796578971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 896
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57385609f4a1f880800000000000000
+      internalID: -8578894425703827622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 897
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e28e9696d013a30800000000000000
+      internalID: 4193147474458193459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 895
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630b041acb979c700800000000000000
+      internalID: 561113479650521142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 895
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef4f70a7a5865d80800000000000000
+      internalID: -8262269511365865493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 895
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca759298637b4250800000000000000
+      internalID: 5929960227336452800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 895
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8782154ee27bb00800000000000000
+      internalID: 844195013304285372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 895
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c674d0b6f854eed0800000000000000
+      internalID: -2385684086047607101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 895
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b74c9b9ed731d0800000000000000
+      internalID: -3370981036140285206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 895
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b57893dc17baf0f0800000000000000
+      internalID: -1082351425992231500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 895
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b128b4af6a050bd0800000000000000
+      internalID: -2664712129898602057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_157
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 895
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd02ca02389b9fc0800000000000000
+      internalID: -3487026145772040709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 895
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7eded358eb3e1a0800000000000000
+      internalID: -6781367134410905687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7dc114f282ddcf0800000000000000
+      internalID: -225980222877673549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 832
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a8c9a338e79fbc0800000000000000
+      internalID: -3748826112720074111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 832
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a64a8ef6d7902f00800000000000000
+      internalID: 1090038059472930472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddca646fd90a4ef30800000000000000
+      internalID: 4603981319381626077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17f37b4f4b109710800000000000000
+      internalID: 1697887086900934429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 831
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05535ec99d6f84800800000000000000
+      internalID: 596998365127193936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 831
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201a038a83f6e120800000000000000
+      internalID: 2442907624124583968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 831
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40230c43f36ba07e0800000000000000
+      internalID: -1798424718596886012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 831
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f1b0a1211f1aef0800000000000000
+      internalID: -98532656776798395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfe7e1e3866a08b0800000000000000
+      internalID: -5185219304346882089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 831
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97e1af7ca01a5cd0800000000000000
+      internalID: -2568722304399710310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 831
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e67884cafa86e10800000000000000
+      internalID: 2191194373201817173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b6167908b9077d0800000000000000
+      internalID: -2922665181565588591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 767
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c29dd848083c430800000000000000
+      internalID: 3802023817234689037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 767
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b6075bbb593d820800000000000000
+      internalID: 2941859615038532417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_174
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 767
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a3329d4cde6e680800000000000000
+      internalID: -8726025798271419780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_175
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 770
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702c7594ad230f810800000000000000
+      internalID: 1796992164435575303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 770
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c38bc4efe76cf10800000000000000
+      internalID: 2289657091238411356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 768
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca43dd851985d84b0800000000000000
+      internalID: -5436591793881926484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_178
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 641
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2a7300ddc347fc0800000000000000
+      internalID: -3498104090670947598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_179
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 640
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a54fac83a9bfc6f0800000000000000
+      internalID: -662106508109068891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_180
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 640
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52a92f07d4a748c0800000000000000
+      internalID: -4015059299198197153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_181
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 640
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f1fffe80d00bb10800000000000000
+      internalID: 1995108966962503563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_182
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 640
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a240af5796e391e0800000000000000
+      internalID: -2192155055780511069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_183
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 640
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973796ae75706f4e0800000000000000
+      internalID: -1948361714614832263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_184
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 447
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6def6ed47e11860800000000000000
+      internalID: 7499029176322545353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_185
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 447
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f451c5108ee18720800000000000000
+      internalID: 2846818673363080432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_186
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 447
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bde0d9c081dc8fb0800000000000000
+      internalID: -4644106764653892172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_187
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 447
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb9930cc58b75470800000000000000
+      internalID: 8383371939874970622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_188
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 447
+        width: 96
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fe69a2148ce2870800000000000000
+      internalID: 8660079315693006728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_189
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 447
+        width: 93
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31c8ed2ba32bb070800000000000000
+      internalID: 8123125571009429821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_190
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 254
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56e1d3105ead18c0800000000000000
+      internalID: -4026870832846215587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_191
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 255
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f362469f0adb658d0800000000000000
+      internalID: -2857888414443493825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_192
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 255
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb9cb4fe99215cf0800000000000000
+      internalID: -265385140350575681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_193
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 256
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bd5f4c438b18d40800000000000000
+      internalID: 5584947549698382705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_194
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 238
+        width: 83
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3190b73ee5dc39760800000000000000
+      internalID: 7463534814910155027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_195
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 241
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b02ca93a99e6ae30800000000000000
+      internalID: 4514552525087318201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_196
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 62
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc33447d60d52db50800000000000000
+      internalID: 6616453086523438031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_197
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 62
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068612fb86ab2dad0800000000000000
+      internalID: -2678873869286021024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_198
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 62
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac133e7d0bc44a30800000000000000
+      internalID: 4198704011428437157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_199
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 62
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61623fa1c4c75000800000000000000
+      internalID: 24704659120873837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_200
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 62
+        width: 95
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b3d7ba7c2ea730800000000000000
+      internalID: 4012193223615428857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Longsword - metal helm_201
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 62
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eec04db27905680800000000000000
+      internalID: -8768342259993350532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
