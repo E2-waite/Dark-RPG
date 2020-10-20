@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AttackCollider : MonoBehaviour
 {
-    public float hitDelay = 0.3f;
     public List<GameObject> enemies = new List<GameObject>();
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,7 +22,7 @@ public class AttackCollider : MonoBehaviour
         }
     }
 
-    public void Hit(float damage)
+    public void Hit(float damage, int dir)
     {
         for (int i = 0; i < enemies.Count; i++)
         {
@@ -33,7 +32,7 @@ public class AttackCollider : MonoBehaviour
             }
             else
             {
-                enemies[i].GetComponent<EnemyController>().Damage(damage, hitDelay);
+                enemies[i].GetComponent<EnemyController>().Damage(damage, dir);
             }
         }
     }

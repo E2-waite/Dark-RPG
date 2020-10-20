@@ -225,7 +225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a3eed4815a7284b9055d5d2bd50937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitDelay: 0.3
   enemies: []
 --- !u!70 &292272176
 CapsuleCollider2D:
@@ -349,7 +348,7 @@ MonoBehaviour:
   collider_obj: {fileID: 292272173}
   sprint_speed: 2
   walk_speed: 1
-  hit_damage: 100
+  hit_damage: 10
   attack_time: 0.5
   startHealth: 100
   currentHealth: 0
@@ -386,7 +385,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 3
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -651,7 +650,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 2
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}

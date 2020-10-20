@@ -23,11 +23,11 @@ public class EnemyCollider : MonoBehaviour
         }
     }
 
-    public void Hit(float damage)
+    public void Hit(float damage, int dir)
     {
         if (player != null)
         {
-            player.GetComponent<PlayerController>().Damage(damage);
+            player.GetComponent<PlayerController>().Damage(damage, dir);
         }
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    Rigidbody2D rb;
     public GameObject collider;
     Animator anim;
     public GameObject player;
@@ -18,12 +19,12 @@ public class EnemyController : MonoBehaviour
     SpriteRenderer sprite;
     bool attacked = false, dead = false;
     
-    // Start is called before the first frame update
     void Start()
     {
         currentHealth = startHealth;
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -60,14 +61,31 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    public void Damage(float damage, float hitDelay)
+    public void Damage(float damage, int dir)
     {
-        StartCoroutine(HitRoutine(damage, hitDelay));
+        Vector2 force = new Vector2(0,0);
+        if (dir == 0)
+        {
+            force = new Vector2(0, 100);
+        }
+        if (dir == 1)
+        {
+            force = new Vector2(100, 0);
+        }
+        if (dir == 2)
+        {
+            force = new Vector2(0, -100);
+        }
+        if (dir == 3)
+        {
+            force = new Vector2(-100, 0);
+        }
+        StartCoroutine(HitRoutine(damage, force));
     }
 
-    IEnumerator HitRoutine(float damage, float hitDelay)
+    IEnumerator HitRoutine(float damage, Vector2 force)
     {
-        yield return new WaitForSeconds(hitDelay);
+        rb.AddForce(force);
         hit = true;
         currentHealth -= damage;
         sprite.color = Color.red;
@@ -114,7 +132,7 @@ public class EnemyController : MonoBehaviour
     {
         if (!dead)
         {
-            collider.GetComponent<EnemyCollider>().Hit(damage);
+            collider.GetComponent<EnemyCollider>().Hit(damage, dir);
         }
     }
 

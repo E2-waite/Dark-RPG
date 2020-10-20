@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    Rigidbody2D rb;
     SpriteRenderer sprite;
     AttackCollider collider;
     Animator anim;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public float attack_time = 0.5f;
     public float startHealth = 100;
     public float currentHealth;
+    int dir;
     float invTime = 0.5f;
     float speed;
     bool sprint, attack, hit = false;
@@ -25,6 +27,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         collider = collider_obj.GetComponent<AttackCollider>();
         sprite = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
         currentHealth = startHealth;
     }
 
@@ -68,18 +71,22 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", speed);
         if (move_x > 0.5f)
         {
+            dir = 1;
             collider_obj.transform.localPosition = new Vector3(0.3f, 0, 0);
         }
         else if (move_x < -0.5f)
         {
+            dir = 3;
             collider_obj.transform.localPosition = new Vector3(-0.3f, 0, 0);
         }
         else if (move_y > 0.5f)
         {
+            dir = 0;
             collider_obj.transform.localPosition = new Vector3(0, 0.3f, 0);
         }
         else
         {
+            dir = 2;
             collider_obj.transform.localPosition = new Vector3(0, -0.3f, 0);
         }
     }
@@ -94,21 +101,38 @@ public class PlayerController : MonoBehaviour
 
     void Hit()
     {
-        collider.Hit(hit_damage);
-        Debug.Log("HIT");
+        collider.Hit(hit_damage, dir);
     }
 
 
-    public void Damage(float damage)
+    public void Damage(float damage, int dir)
     {
         if (!dead)
         {
-            StartCoroutine(HitRoutine(damage));
+            Vector2 force = new Vector2(0, 0);
+            if (dir == 0)
+            {
+                force = new Vector2(0, 50);
+            }
+            if (dir == 1)
+            {
+                force = new Vector2(50, 0);
+            }
+            if (dir == 2)
+            {
+                force = new Vector2(0, -50);
+            }
+            if (dir == 3)
+            {
+                force = new Vector2(-50, 0);
+            }
+            StartCoroutine(HitRoutine(damage, force));
         }
     }
 
-    IEnumerator HitRoutine(float damage)
+    IEnumerator HitRoutine(float damage, Vector2 force)
     {
+        rb.AddForce(force);
         hit = true;
         currentHealth -= damage;
         sprite.color = Color.red;
