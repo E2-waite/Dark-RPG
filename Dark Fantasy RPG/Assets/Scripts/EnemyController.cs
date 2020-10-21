@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     public float currentHealth;
     public float dist;
     public float attackCooldown = 1;
+    public float speed = 1;
     public int dir;
     float invTime = 0.25f;
     bool hit = false, inLine = false;
@@ -30,12 +31,29 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
         dist = Vector3.Distance(transform.position, player.transform.position);
-
+        anim.SetInteger("Direction", dir);
         SetDir();
 
         if (dist <= 0.8f && !attacked && !player.GetComponent<PlayerController>().dead)
         {
             StartCoroutine(AttackRoutine());
+        }
+        if (dist < 5 && dist > 0.8f && !attacked)
+        {
+            anim.SetBool("Walking", true);
+            Chase();
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
+        }
+    }
+
+    void Chase()
+    {
+        if (player != null)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
     }
 
@@ -103,6 +121,8 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator AttackRoutine()
     {
+        attacked = true;
+        anim.SetBool("Attack", true);
         if (dir == 0)
         {
             collider.transform.localPosition = new Vector3(0, 0.3f, 0);
@@ -119,10 +139,8 @@ public class EnemyController : MonoBehaviour
         {
             collider.transform.localPosition = new Vector3(-0.3f, 0, 0);
         }
-        attacked = true;
-        anim.SetInteger("Direction", dir);
-        anim.SetBool("Attack", true);
-        yield return new WaitForEndOfFrame();
+
+        yield return new WaitForSeconds(0.1f);
         anim.SetBool("Attack", false);
         yield return new WaitForSeconds(attackCooldown);
         attacked = false;
@@ -135,5 +153,4 @@ public class EnemyController : MonoBehaviour
             collider.GetComponent<EnemyCollider>().Hit(damage, dir);
         }
     }
-
 }
