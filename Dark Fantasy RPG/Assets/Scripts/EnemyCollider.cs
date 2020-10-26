@@ -10,7 +10,6 @@ public class EnemyCollider : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player");
             player = collision.gameObject;
         }
     }

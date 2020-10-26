@@ -63,10 +63,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HealthBar.cs" />
+    <Compile Include="Assets\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\AttackCollider.cs" />
     <Compile Include="Assets\Scripts\EnemyCollider.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Equipment.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Items.cs" />
+    <Compile Include="Assets\Scripts\Loot.cs" />
+    <Compile Include="Assets\Scripts\LootArc.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
