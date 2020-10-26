@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public GameObject coinPrefab, hOrbPrefab;
     Rigidbody2D rb;
     public GameObject collider;
     Animator anim;
@@ -22,6 +23,7 @@ public class EnemyController : MonoBehaviour
     
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         currentHealth = startHealth;
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
@@ -34,11 +36,11 @@ public class EnemyController : MonoBehaviour
         anim.SetInteger("Direction", dir);
         SetDir();
 
-        if (dist <= 0.8f && !attacked && !player.GetComponent<PlayerController>().dead)
+        if (dist <= 0.8f && !attacked && !dead &&!player.GetComponent<PlayerController>().dead)
         {
             StartCoroutine(AttackRoutine());
         }
-        if (dist < 5 && dist > 0.8f && !attacked)
+        if (dist < 5 && dist > 0.8f && !attacked && !dead)
         {
             anim.SetBool("Walking", true);
             Chase();
@@ -103,17 +105,18 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator HitRoutine(float damage, Vector2 force)
     {
-        rb.AddForce(force);
         hit = true;
         currentHealth -= damage;
         sprite.color = Color.red;
         if (currentHealth <= 0)
         {
+            anim.SetFloat("AnimSpeed", 0.0f);
             dead = true;
-            yield return new WaitForSeconds(0.1f);
-            Destroy(this.gameObject);
+            StartCoroutine(DropCoins(Random.Range(0, 10)));
+            yield break;
 
         }
+        rb.AddForce(force);
         yield return new WaitForSeconds(invTime);
         sprite.color = Color.white;
         hit = false;
@@ -152,5 +155,25 @@ public class EnemyController : MonoBehaviour
         {
             collider.GetComponent<EnemyCollider>().Hit(damage, dir);
         }
+    }
+
+    IEnumerator DropCoins(int num)
+    {
+        if (num == 0)
+        {
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        for (int i = 0; i < num; i++)
+        {
+            GameObject gold = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+            gold.GetComponent<Loot>().Init(player);
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        GameObject healthObj = Instantiate(hOrbPrefab, transform.position, Quaternion.identity);
+        healthObj.GetComponent<Loot>().Init(player);
+
+        Destroy(this.gameObject);
     }
 }
