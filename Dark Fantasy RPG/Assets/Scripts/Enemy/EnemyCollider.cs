@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyCollider : MonoBehaviour
 {
-    GameObject player = null;
+    public GameObject player = null;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,11 +22,11 @@ public class EnemyCollider : MonoBehaviour
         }
     }
 
-    public void Hit(float damage, int dir)
+    public void Hit(float damage, int dir, float knockback)
     {
         if (player != null)
         {
-            player.GetComponent<PlayerController>().Damage(damage, dir);
+            player.GetComponent<PlayerController>().Damage(damage, dir, knockback);
         }
     }
 }

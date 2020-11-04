@@ -8,6 +8,7 @@ public class Interaction : MonoBehaviour
     public enum INTERACTION
     {
         chest,
+        mimic,
         shop
     }
 
@@ -20,6 +21,15 @@ public class Interaction : MonoBehaviour
         if (type == INTERACTION.chest)
         {
             if (GetComponent<Chest>().Open())
+            {
+                E.SetActive(false);
+                active = false;
+                return true;
+            }
+        }
+        if (type == INTERACTION.mimic)
+        {
+            if (GetComponent<Mimic>().Open())
             {
                 E.SetActive(false);
                 active = false;

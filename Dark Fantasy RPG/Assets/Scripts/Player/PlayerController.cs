@@ -119,26 +119,26 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Damage(float damage, int dir)
+    public void Damage(float damage, int dir, float knockback)
     {
         if (!dead)
         {
             Vector2 force = new Vector2(0, 0);
             if (dir == 0)
             {
-                force = new Vector2(0, 50);
+                force = new Vector2(0, knockback);
             }
             if (dir == 1)
             {
-                force = new Vector2(50, 0);
+                force = new Vector2(knockback, 0);
             }
             if (dir == 2)
             {
-                force = new Vector2(0, -50);
+                force = new Vector2(0, -knockback);
             }
             if (dir == 3)
             {
-                force = new Vector2(-50, 0);
+                force = new Vector2(-knockback, 0);
             }
             StartCoroutine(HitRoutine(damage, force));
         }

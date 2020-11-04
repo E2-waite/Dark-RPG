@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public enum TYPE
+    {
+        melee,
+        mimic
+    }
+    public TYPE type;
     public GameObject coinPrefab, hOrbPrefab;
     Rigidbody2D rb;
     public GameObject collider;
@@ -15,12 +21,14 @@ public class EnemyController : MonoBehaviour
     public float dist;
     public float attackCooldown = 1;
     public float speed = 1;
+    public float chaseDist = 5;
+    public float knockback = 50;
     public int dir;
     float invTime = 0.25f;
     bool hit = false, inLine = false;
     SpriteRenderer sprite;
     bool attacked = false, dead = false;
-    
+    Mimic mimic;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -28,6 +36,10 @@ public class EnemyController : MonoBehaviour
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        if (type == TYPE.mimic)
+        {
+            mimic = GetComponent<Mimic>();
+        }
     }
 
     private void Update()
@@ -36,11 +48,11 @@ public class EnemyController : MonoBehaviour
         anim.SetInteger("Direction", dir);
         SetDir();
 
-        if (dist <= 0.8f && !attacked && !dead &&!player.GetComponent<PlayerController>().dead)
+        if (GetDist(false) && !attacked && !dead &&!player.GetComponent<PlayerController>().dead)
         {
             StartCoroutine(AttackRoutine());
         }
-        if (dist < 5 && dist > 0.8f && !attacked && !dead)
+        if (dist < chaseDist && GetDist(true) && !attacked && !dead && (type != TYPE.mimic || mimic.open))
         {
             anim.SetBool("Walking", true);
             Chase();
@@ -49,6 +61,24 @@ public class EnemyController : MonoBehaviour
         {
             anim.SetBool("Walking", false);
         }
+    }
+
+    bool GetDist(bool greater)
+    {
+        float hitDist = 0;
+        if (type == TYPE.melee)
+        {
+            hitDist = 0.8f;
+        }
+        if (type == TYPE.mimic)
+        {
+            hitDist = 0.5f;
+        }
+        if ((greater && dist >= hitDist) || (!greater && dist < hitDist))
+        {
+            return true;
+        }
+        return false;
     }
 
     void Chase()
@@ -83,24 +113,27 @@ public class EnemyController : MonoBehaviour
 
     public void Damage(float damage, int dir)
     {
-        Vector2 force = new Vector2(0,0);
-        if (dir == 0)
+        if (type != TYPE.mimic || mimic.open)
         {
-            force = new Vector2(0, 100);
+            Vector2 force = new Vector2(0, 0);
+            if (dir == 0)
+            {
+                force = new Vector2(0, 100);
+            }
+            if (dir == 1)
+            {
+                force = new Vector2(100, 0);
+            }
+            if (dir == 2)
+            {
+                force = new Vector2(0, -100);
+            }
+            if (dir == 3)
+            {
+                force = new Vector2(-100, 0);
+            }
+            StartCoroutine(HitRoutine(damage, force));
         }
-        if (dir == 1)
-        {
-            force = new Vector2(100, 0);
-        }
-        if (dir == 2)
-        {
-            force = new Vector2(0, -100);
-        }
-        if (dir == 3)
-        {
-            force = new Vector2(-100, 0);
-        }
-        StartCoroutine(HitRoutine(damage, force));
     }
 
     IEnumerator HitRoutine(float damage, Vector2 force)
@@ -110,9 +143,7 @@ public class EnemyController : MonoBehaviour
         sprite.color = Color.red;
         if (currentHealth <= 0)
         {
-            anim.SetFloat("AnimSpeed", 0.0f);
-            dead = true;
-            StartCoroutine(DropCoins(Random.Range(0, 10)));
+            StartCoroutine(DeathRoutine());
             yield break;
 
         }
@@ -120,6 +151,36 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(invTime);
         sprite.color = Color.white;
         hit = false;
+    }
+
+    IEnumerator DeathRoutine()
+    {
+        dead = true;
+        if (type == TYPE.mimic)
+        {
+            mimic.DropChest();
+            yield return new WaitForSeconds(invTime);
+            sprite.color = Color.white;
+        }
+        else
+        {
+            int num = Random.Range(0, 10);
+            anim.SetFloat("AnimSpeed", 0.0f);
+            if (num == 0)
+            {
+                yield return new WaitForSeconds(0.5f);
+            }
+
+            for (int i = 0; i < num; i++)
+            {
+                GameObject gold = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+                yield return new WaitForSeconds(0.2f);
+            }
+
+            GameObject healthObj = Instantiate(hOrbPrefab, transform.position, Quaternion.identity);
+
+            Destroy(this.gameObject);
+        }
     }
 
     IEnumerator AttackRoutine()
@@ -153,25 +214,7 @@ public class EnemyController : MonoBehaviour
     {
         if (!dead)
         {
-            collider.GetComponent<EnemyCollider>().Hit(damage, dir);
+            collider.GetComponent<EnemyCollider>().Hit(damage, dir, knockback);
         }
-    }
-
-    IEnumerator DropCoins(int num)
-    {
-        if (num == 0)
-        {
-            yield return new WaitForSeconds(0.5f);
-        }
-
-        for (int i = 0; i < num; i++)
-        {
-            GameObject gold = Instantiate(coinPrefab, transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(0.2f);
-        }
-
-        GameObject healthObj = Instantiate(hOrbPrefab, transform.position, Quaternion.identity);
-
-        Destroy(this.gameObject);
     }
 }
