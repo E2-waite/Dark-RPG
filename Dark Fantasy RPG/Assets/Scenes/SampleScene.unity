@@ -841,6 +841,8 @@ MonoBehaviour:
   move_x: 0
   move_y: 0
   collider_obj: {fileID: 292272173}
+  arrowPrefab: {fileID: 8782040629763574216, guid: 9d2e58b625fbf56498f19182f3efe270,
+    type: 3}
   attack_time: 0.5
   dead: 0
 --- !u!95 &303467032

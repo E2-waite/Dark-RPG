@@ -13,13 +13,15 @@ public class PlayerController : MonoBehaviour
     public GameObject interaction;
     public float move_x, move_y;
     public GameObject collider_obj;
+    public GameObject arrowPrefab;
     public float attack_time = 0.5f;
-    int dir;
+    public int dir;
     float invTime = 0.5f;
     float speed;
     bool sprint, attack, hit = false;
     public bool dead = false;
-
+    bool bow = false, bowCharging = false;
+    float bowCooldown = 0;
 
     void Start()
     {
@@ -34,7 +36,11 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move_x = Input.GetAxis("Horizontal"); move_y = Input.GetAxis("Vertical");
-        if (!dead)
+        anim.SetFloat("Horizontal", move_x);
+        anim.SetFloat("Vertical", move_y);
+        anim.SetFloat("Speed", speed);
+        WalkAnim();
+        if (!dead && !bow)
         {
             Move();
         }
@@ -45,6 +51,33 @@ public class PlayerController : MonoBehaviour
         {
             Interact();
         }
+
+        if (Input.GetMouseButton(1))
+        {
+            anim.SetBool("Bow", true);
+            bow = true;
+            if (Input.GetMouseButton(0) && bowCooldown <= 0)
+            {
+                anim.SetBool("Charge", true);
+                bowCharging = true;
+            }
+            else
+            {
+                if (bowCharging && bowCooldown <= 0)
+                {
+                    bowCharging = false;
+                    anim.SetBool("Fire", true);
+                    anim.SetBool("Charge", false);
+                }
+            }
+        }
+        else
+        {
+            anim.SetBool("Bow", false);
+            bow = false;
+            anim.SetBool("Charge", false);
+            bowCharging = false;
+        }
     }
 
     void Move()
@@ -52,7 +85,6 @@ public class PlayerController : MonoBehaviour
         if (!attack)
         {
             transform.position = new Vector3(transform.position.x + ((move_x * speed) * Time.deltaTime), transform.position.y + ((move_y * speed) * Time.deltaTime), transform.position.z);
-            WalkAnim();
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -64,7 +96,7 @@ public class PlayerController : MonoBehaviour
             speed = stats.walkSpeed;
         }
 
-        if (Input.GetMouseButton(0) && !attack)
+        if (Input.GetMouseButton(0) && !attack && !bow)
         {
             attack = true;
             StartCoroutine(Attack());
@@ -73,9 +105,7 @@ public class PlayerController : MonoBehaviour
 
     void WalkAnim()
     {
-        anim.SetFloat("Horizontal", move_x);
-        anim.SetFloat("Vertical", move_y);
-        anim.SetFloat("Speed", speed);
+
         if (move_x > 0.5f)
         {
             dir = 1;
@@ -91,7 +121,7 @@ public class PlayerController : MonoBehaviour
             dir = 0;
             collider_obj.transform.localPosition = new Vector3(0, 0.3f, 0);
         }
-        else
+        else if (move_y < -0.5f)
         {
             dir = 2;
             collider_obj.transform.localPosition = new Vector3(0, -0.3f, 0);
@@ -109,6 +139,25 @@ public class PlayerController : MonoBehaviour
     void Hit()
     {
         col.Hit(stats.hitStrength, dir);
+    }
+
+    void Fire()
+    {
+        bowCooldown = 1;
+        Debug.Log("FIRE");
+        anim.SetBool("Fire", false);
+        StartCoroutine(FireRoutine());
+    }
+
+    IEnumerator FireRoutine()
+    {
+        GameObject arrow = Instantiate(arrowPrefab, new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z), Quaternion.identity);
+        arrow.GetComponent<Arrow>().dir = dir;
+        while (bowCooldown > 0)
+        {
+            bowCooldown -= Time.deltaTime;
+            yield return null;
+        }
     }
 
     void Interact()

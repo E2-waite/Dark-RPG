@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Arrow.cs" />
     <Compile Include="Assets\Chest.cs" />
     <Compile Include="Assets\Interaction.cs" />
     <Compile Include="Assets\Mimic.cs" />
