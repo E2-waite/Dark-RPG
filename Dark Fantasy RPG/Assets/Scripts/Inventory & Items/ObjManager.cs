@@ -6,11 +6,13 @@ using System.Linq.Expressions;
 
 public class ObjManager : MonoSingleton<ObjManager>
 {
+    Particles particles;
     Potion potion;
 
     // Start is called before the first frame update
     void Start()
     {
+        particles = GetComponent<Particles>();
         potion = GetComponent<Potion>();
     }
 
@@ -44,7 +46,8 @@ public class ObjManager : MonoSingleton<ObjManager>
                     {
                         stats.currentHealth += item.value;
                     }
-                    return true; ;
+                    Instantiate(particles.healthParticle, player.transform.position, Quaternion.identity);
+                    return true;
                 }
                 return false;
             }
@@ -60,6 +63,7 @@ public class ObjManager : MonoSingleton<ObjManager>
                         {
                             stats.currentMana += item.value;
                         }
+                        Instantiate(particles.manaParticle, player.transform.position, Quaternion.identity);
                         return true;
                     }
                     return false;

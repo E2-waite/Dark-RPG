@@ -195,6 +195,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator HitRoutine(float damage, Vector2 force)
     {
+        Instantiate(ParticleManager.Instance.blood, transform);
         rb.AddForce(force);
         hit = true;
         stats.currentHealth -= damage;
