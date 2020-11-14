@@ -29,6 +29,8 @@ public class EnemyController : MonoBehaviour
     SpriteRenderer sprite;
     bool attacked = false, dead = false;
     Mimic mimic;
+    public float AIDist = 1.5f;
+    GameObject[] AI;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -40,6 +42,7 @@ public class EnemyController : MonoBehaviour
         {
             mimic = GetComponent<Mimic>();
         }
+        AI = GameObject.FindGameObjectsWithTag("Enemy");
     }
 
     private void Update()
@@ -68,7 +71,7 @@ public class EnemyController : MonoBehaviour
         float hitDist = 0;
         if (type == TYPE.melee)
         {
-            hitDist = 0.8f;
+            hitDist = 0.5f;
         }
         if (type == TYPE.mimic)
         {
@@ -85,7 +88,24 @@ public class EnemyController : MonoBehaviour
     {
         if (player != null)
         {
-            transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            Vector3 direction = player.transform.position - transform.position;
+            direction = new Vector3(direction.x, direction.y, 0);
+            transform.Translate(direction * (speed * Time.deltaTime));
+
+            foreach (GameObject go in AI)
+            {
+                if (go != null && go != gameObject)
+                {
+                    float distance = Vector3.Distance(go.transform.position, transform.position);
+                    if (distance <= AIDist)
+                    {
+                        direction = transform.position - go.transform.position;
+                        direction = new Vector3(direction.x, direction.y, 0);
+                        transform.Translate(direction * (speed * Time.deltaTime));
+                    }
+                }
+            }
+
         }
     }
 
