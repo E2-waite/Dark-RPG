@@ -84,7 +84,8 @@ public class PlayerController : MonoBehaviour
     {
         if (!attack)
         {
-            transform.position = new Vector3(transform.position.x + ((move_x * speed) * Time.deltaTime), transform.position.y + ((move_y * speed) * Time.deltaTime), transform.position.z);
+            //transform.position = new Vector3(transform.position.x + ((move_x * speed) * Time.deltaTime), transform.position.y + ((move_y * speed) * Time.deltaTime), transform.position.z);
+            rb.velocity = new Vector2(move_x * speed, move_y * speed);
         }
 
         if (Input.GetKey(KeyCode.LeftShift))

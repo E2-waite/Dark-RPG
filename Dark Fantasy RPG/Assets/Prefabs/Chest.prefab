@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 7916112332003591530}
   - component: {fileID: 7916112332003591533}
   - component: {fileID: 7916112332003591532}
+  - component: {fileID: -1755789466248692802}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -263,3 +264,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.08}
   serializedVersion: 2
   m_Radius: 0.12
+--- !u!114 &-1755789466248692802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916112332003591520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfefecb87423374abbb8892865aedb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  update: 0
