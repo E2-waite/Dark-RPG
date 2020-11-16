@@ -1,7 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AnimDestroy
+    - Arrow
     - AttackCollider
+    - CameraController
     - Chest
     - EnemyCollider
     - EnemyController
@@ -12,8 +15,11 @@ ScriptsOnlyBuild:
     - LootArc
     - Mimic
     - ObjManager
+    - ParticleManager
+    - Particles
     - PlayerController
     - Potion
+    - SetSortingLayer
     - StatBar
     - Stats
     - TextMeshOrder
@@ -21,6 +27,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -34,10 +41,9 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -69,6 +75,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
     - Class: 74
@@ -88,47 +96,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11456}
+      Script: {instanceID: 11184}
     - Class: 114
-      Script: {instanceID: 11510}
+      Script: {instanceID: 11458}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11512}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11650}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 11728}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 11848}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 11884}
     - Class: 114
-      Script: {instanceID: 12646}
+      Script: {instanceID: 12086}
     - Class: 114
-      Script: {instanceID: 13014}
+      Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 13104}
+      Script: {instanceID: 12186}
     - Class: 114
-      Script: {instanceID: 13642}
+      Script: {instanceID: 12488}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13794}
+      Script: {instanceID: 12656}
     - Class: 114
-      Script: {instanceID: 13844}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13944}
+      Script: {instanceID: 13114}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 13540}
     - Class: 114
-      Script: {instanceID: 14112}
+      Script: {instanceID: 13654}
     - Class: 114
-      Script: {instanceID: 14208}
+      Script: {instanceID: 13714}
     - Class: 114
-      Script: {instanceID: 14268}
+      Script: {instanceID: 13806}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 13856}
     - Class: 114
-      Script: {instanceID: 23220}
+      Script: {instanceID: 13908}
+    - Class: 114
+      Script: {instanceID: 13958}
+    - Class: 114
+      Script: {instanceID: 14028}
+    - Class: 114
+      Script: {instanceID: 14126}
+    - Class: 114
+      Script: {instanceID: 14222}
+    - Class: 114
+      Script: {instanceID: 14282}
+    - Class: 114
+      Script: {instanceID: 14284}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -136,6 +156,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -146,6 +170,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 19719996
       Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
@@ -160,6 +186,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 051c7c64051c01aaf292d1f079b5ee86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -252,7 +284,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 202a6c4a15fbe8af63b57cc38ef41e5f
+      Hash: 7be5b261fd409a8050e80204c59b3323
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
@@ -280,6 +312,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 2675ba88450c177859b447db933e86ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Mimic
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -310,6 +348,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 65e4c980bec6ee7863e691dd69bec429
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ParticleManager
   - hash:
       serializedVersion: 2
       Hash: d941ab6dd93d37ffdf2277f2ea2375a0
@@ -346,6 +390,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1bfad85c263f022ed12013e40489e44b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Particles
   - hash:
       serializedVersion: 2
       Hash: a104461777379b336527166e36639f36
@@ -396,6 +446,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 20c9a74d659b6895cfdb5f4624ba8daa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimDestroy
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -420,7 +476,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: fce4643b3e910fade365d2cbe280f50f
+      Hash: e724dd29e0cafa20a92c0b4d2430699b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -540,6 +596,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 2accaec469617af645eccf03419b7323
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetSortingLayer
+  - hash:
+      serializedVersion: 2
       Hash: 8001a5f7502aab37e42206da015e6914
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -586,6 +648,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c70f40baf00bd29bccaa13e378b2bb6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Arrow
   - hash:
       serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
@@ -718,12 +786,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2675ba88450c177859b447db933e86ef
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Mimic
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
