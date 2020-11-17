@@ -151,7 +151,7 @@ MonoBehaviour:
   chaseDist: 5
   knockback: 50
   dir: 0
-  AIDist: 1.5
+  AIDist: 0.25
 --- !u!50 &3957981377357719941
 Rigidbody2D:
   serializedVersion: 4

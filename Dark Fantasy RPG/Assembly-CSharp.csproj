@@ -67,10 +67,12 @@
     <Compile Include="Assets\Arrow.cs" />
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\Chest.cs" />
+    <Compile Include="Assets\GameOver.cs" />
     <Compile Include="Assets\Interaction.cs" />
     <Compile Include="Assets\Mimic.cs" />
     <Compile Include="Assets\ParticleManager.cs" />
     <Compile Include="Assets\Particles.cs" />
+    <Compile Include="Assets\PathTiles.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyCollider.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Equipment.cs" />

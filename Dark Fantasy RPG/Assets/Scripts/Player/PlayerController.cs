@@ -212,6 +212,7 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("Dead", true);
             yield return new WaitForSeconds(2);
             //Destroy(this.gameObject);
+            GameOver.Instance.Display();
         }
 
         yield return new WaitForSeconds(invTime);

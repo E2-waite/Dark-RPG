@@ -37,5 +37,9 @@ public class Arrow : MonoBehaviour
             other.gameObject.GetComponent<EnemyController>().Damage(damage, dir);
             Destroy(gameObject);
         }
+        if (other.gameObject.CompareTag("Collider"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
