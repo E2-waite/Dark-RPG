@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         move_x = Input.GetAxis("Horizontal"); move_y = Input.GetAxis("Vertical");
         anim.SetFloat("Horizontal", move_x);
         anim.SetFloat("Vertical", move_y);
-        anim.SetFloat("Speed", speed);
+        anim.SetFloat("Speed", speed / 30);
         WalkAnim();
         if (!dead && !bow)
         {

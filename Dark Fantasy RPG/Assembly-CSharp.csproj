@@ -73,6 +73,7 @@
     <Compile Include="Assets\ParticleManager.cs" />
     <Compile Include="Assets\Particles.cs" />
     <Compile Include="Assets\PathTiles.cs" />
+    <Compile Include="Assets\RoomController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyCollider.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Equipment.cs" />

@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9b2604fe0f48c84eb6701f3341def57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arc: 1
+  arc: 0
   expires: 0
   expiryTime: 10
   distance: 2
