@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public float attack_time = 0.5f;
     public int dir;
     bool moving = false;
-    float invTime = 0.5f;
+    float invTime = 0.5f, combatTime = 15, currCombatTime;
     float speed;
     bool sprint, attack, hit = false;
     public bool dead = false;
@@ -55,16 +55,16 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move_x = Input.GetAxis("Horizontal"); move_y = Input.GetAxis("Vertical");
-
-        if ((move_x > 0 || move_x < 0) || (move_y > 0 || move_y < 0))
+        if (!attack)
         {
-            moving = true;
-            state = State.walk;
-        }
-        else
-        {
-            moving = false;
-            state = State.idle;
+            if (((move_x > 0 || move_x < 0) || (move_y > 0 || move_y < 0)))
+            {
+                state = State.walk;
+            }
+            else
+            {
+                state = State.idle;
+            }
         }
 
         for (int i = 0; i < 2; i++)
@@ -113,24 +113,66 @@ public class PlayerController : MonoBehaviour
             bowCharging = false;
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        GetMouseDir();
+        if (!attack)
         {
-            anim[0].SetInteger("Direction", 0);
+            SetAnimLayerWeight();
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+    }
+
+    void GetMouseDir()
+    {
+        Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+
+        mousePos = mousePos - transform.position;
+
+        float x = mousePos.x, y = mousePos.y;
+
+        //Debug.Log(mousePos.x.ToString() + mousePos.y.ToString());
+
+        if (x < 0)
         {
-            anim[0].SetInteger("Direction", 1);
+            x = -x;
         }
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (y < 0)
         {
-            anim[0].SetInteger("Direction", 2);
+            y = -y;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        Debug.Log(x.ToString() + y.ToString());
+        bool horizontal = true;
+
+        if (y > x)
         {
-            anim[0].SetInteger("Direction", 3);
+            horizontal = false;
         }
 
-        SetAnimLayerWeight();
+        if (horizontal)
+        {
+            Debug.Log("Horizontal");
+            if (mousePos.x < 0)
+            {
+                Debug.Log("X - 1");
+                anim[0].SetInteger("Direction", 3);
+            }
+            if (mousePos.x > 0)
+            {
+                anim[0].SetInteger("Direction", 1);
+            }
+        }
+        if (!horizontal)
+        {
+            Debug.Log("Vertical");
+            if (mousePos.y < 0)
+            {
+
+                anim[0].SetInteger("Direction", 2);
+            }
+            if (mousePos.y > 0)
+            {
+                anim[0].SetInteger("Direction", 0);
+            }
+        }
     }
 
     void SetAnimLayerWeight()
@@ -216,10 +258,38 @@ public class PlayerController : MonoBehaviour
     
     IEnumerator Attack()
     {
+        state = State.attack;
+        combatState = Equipment.sword;
         anim[0].SetBool("Attack", true);
-        yield return new WaitForSeconds(attack_time);
+        anim[0].SetLayerWeight(1, 0);
+        anim[0].SetLayerWeight(2, 0);
+        anim[0].SetLayerWeight(3, 0);
+        anim[0].SetLayerWeight(4, 4);
+        anim[0].SetLayerWeight(5, 0);
+        if (currCombatTime <= 0)
+        {
+            StartCoroutine(SwordTimer());
+        }
+        else
+        {
+            currCombatTime = combatTime;
+        }
+        yield return new WaitForSeconds(0.4f);
         anim[0].SetBool("Attack", false);
         attack = false;
+    }
+
+    IEnumerator SwordTimer()
+    {
+        currCombatTime = combatTime;
+        while (currCombatTime > 0)
+        {
+            currCombatTime -= Time.deltaTime;
+            yield return null;
+        }
+        currCombatTime = 0;
+
+        combatState = Equipment.unarmed;
     }
 
     void Hit()
