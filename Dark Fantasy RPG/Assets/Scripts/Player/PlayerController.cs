@@ -1,9 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum State
+    {
+        idle,
+        walk,
+        attack
+    }
+
+    public enum Equipment
+    {
+        unarmed,
+        sword,
+        bow
+    }
+
+    public State state = State.idle;
+    public Equipment combatState = Equipment.unarmed;
     Stats stats;
     Rigidbody2D rb;
     SpriteRenderer sprite;
@@ -16,6 +33,7 @@ public class PlayerController : MonoBehaviour
     public GameObject arrowPrefab;
     public float attack_time = 0.5f;
     public int dir;
+    bool moving = false;
     float invTime = 0.5f;
     float speed;
     bool sprint, attack, hit = false;
@@ -37,6 +55,18 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move_x = Input.GetAxis("Horizontal"); move_y = Input.GetAxis("Vertical");
+
+        if ((move_x > 0 || move_x < 0) || (move_y > 0 || move_y < 0))
+        {
+            moving = true;
+            state = State.walk;
+        }
+        else
+        {
+            moving = false;
+            state = State.idle;
+        }
+
         for (int i = 0; i < 2; i++)
         {
             anim[i].SetFloat("Horizontal", move_x);
@@ -81,6 +111,60 @@ public class PlayerController : MonoBehaviour
             bow = false;
             anim[0].SetBool("Charge", false);
             bowCharging = false;
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            anim[0].SetInteger("Direction", 0);
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            anim[0].SetInteger("Direction", 1);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            anim[0].SetInteger("Direction", 2);
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            anim[0].SetInteger("Direction", 3);
+        }
+
+        SetAnimLayerWeight();
+    }
+
+    void SetAnimLayerWeight()
+    {
+        if (combatState == Equipment.unarmed)
+        {
+            anim[0].SetLayerWeight(1, 1);
+            anim[0].SetLayerWeight(2, 0);
+            anim[0].SetLayerWeight(3, 0);
+            anim[0].SetLayerWeight(4, 0);
+            anim[0].SetLayerWeight(5, 0);
+        }
+        if (combatState == Equipment.sword)
+        {
+            anim[0].SetLayerWeight(1, 0);
+            anim[0].SetLayerWeight(5, 0);
+            if (state == State.idle)
+            {
+                anim[0].SetLayerWeight(2, 1);
+                anim[0].SetLayerWeight(3, 0);
+                anim[0].SetLayerWeight(4, 0);
+            }
+            if (state == State.walk)
+            {
+                anim[0].SetLayerWeight(2, 0);
+                anim[0].SetLayerWeight(3, 1);
+                anim[0].SetLayerWeight(4, 0);
+            }
+            if (state == State.attack)
+            {
+                anim[0].SetLayerWeight(2, 0);
+                anim[0].SetLayerWeight(3, 0);
+                anim[0].SetLayerWeight(4, 1);
+            }
         }
     }
 
