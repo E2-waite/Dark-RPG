@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer sprite;
     AttackCollider col;
     Inventory inv;
-    Animator anim;
+    Animator[] anim = new Animator[2];
     public GameObject interaction;
     public float move_x, move_y;
     public GameObject collider_obj;
@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         stats = GetComponent<Stats>();
-        anim = GetComponent<Animator>();
+        anim[0] = GetComponent<Animator>();
+        anim[1] = transform.GetChild(0).gameObject.GetComponent<Animator>();
         col = collider_obj.GetComponent<AttackCollider>();
         sprite = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
@@ -36,9 +37,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move_x = Input.GetAxis("Horizontal"); move_y = Input.GetAxis("Vertical");
-        anim.SetFloat("Horizontal", move_x);
-        anim.SetFloat("Vertical", move_y);
-        anim.SetFloat("Speed", speed / 30);
+        for (int i = 0; i < 2; i++)
+        {
+            anim[i].SetFloat("Horizontal", move_x);
+            anim[i].SetFloat("Vertical", move_y);
+            anim[i].SetFloat("Speed", speed / 30);
+        }
         WalkAnim();
         if (!dead && !bow)
         {
@@ -54,11 +58,11 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            anim.SetBool("Bow", true);
+            anim[0].SetBool("Bow", true);
             bow = true;
             if (Input.GetMouseButton(0) && bowCooldown <= 0)
             {
-                anim.SetBool("Charge", true);
+                anim[0].SetBool("Charge", true);
                 bowCharging = true;
             }
             else
@@ -66,27 +70,24 @@ public class PlayerController : MonoBehaviour
                 if (bowCharging && bowCooldown <= 0)
                 {
                     bowCharging = false;
-                    anim.SetBool("Fire", true);
-                    anim.SetBool("Charge", false);
+                    anim[0].SetBool("Fire", true);
+                    anim[0].SetBool("Charge", false);
                 }
             }
         }
         else
         {
-            anim.SetBool("Bow", false);
+            anim[0].SetBool("Bow", false);
             bow = false;
-            anim.SetBool("Charge", false);
+            anim[0].SetBool("Charge", false);
             bowCharging = false;
         }
     }
 
     void Move()
     {
-        if (!attack)
-        {
             //transform.position = new Vector3(transform.position.x + ((move_x * speed) * Time.deltaTime), transform.position.y + ((move_y * speed) * Time.deltaTime), transform.position.z);
-            rb.velocity = new Vector2(move_x * speed, move_y * speed);
-        }
+        rb.velocity = new Vector2(move_x * speed, move_y * speed);
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -131,9 +132,9 @@ public class PlayerController : MonoBehaviour
     
     IEnumerator Attack()
     {
-        anim.SetBool("Attack", true);
+        anim[0].SetBool("Attack", true);
         yield return new WaitForSeconds(attack_time);
-        anim.SetBool("Attack", false);
+        anim[0].SetBool("Attack", false);
         attack = false;
     }
 
@@ -146,7 +147,7 @@ public class PlayerController : MonoBehaviour
     {
         bowCooldown = 1;
         Debug.Log("FIRE");
-        anim.SetBool("Fire", false);
+        anim[0].SetBool("Fire", false);
         StartCoroutine(FireRoutine());
     }
 
@@ -207,9 +208,9 @@ public class PlayerController : MonoBehaviour
         if (stats.currentHealth <= 0)
         {
             dead = true;
-            anim.SetBool("Dying", true);
+            anim[0].SetBool("Dying", true);
             yield return new WaitForSeconds(0.1f);
-            anim.SetBool("Dead", true);
+            anim[0].SetBool("Dead", true);
             yield return new WaitForSeconds(2);
             //Destroy(this.gameObject);
             GameOver.Instance.Display();

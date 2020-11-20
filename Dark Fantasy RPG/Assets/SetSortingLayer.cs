@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SetSortingLayer : MonoBehaviour
 {
-    public bool update = false;
+    public bool update = false, legs = false;
     SpriteRenderer rend;
     void Start()
     {
@@ -18,6 +18,10 @@ public class SetSortingLayer : MonoBehaviour
         if (update)
         {
             rend.sortingOrder = (int)-(transform.position.y * 10);
+            if (legs)
+            {
+                rend.sortingOrder -= 1;
+            }
         }
     }
 }
