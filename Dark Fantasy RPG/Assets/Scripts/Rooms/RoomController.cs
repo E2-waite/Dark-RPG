@@ -7,8 +7,9 @@ public class RoomController : MonoSingleton<RoomController>
     public List<GameObject> roomPrefabs;
     public GameObject player;
     Vector2Int mapSize;
-    GameObject[,] rooms;
+    public GameObject[,] rooms;
     public GameObject currentRoom;
+    public Vector2Int currentPos;
     bool changingRoom = false;
     private void Start()
     {
@@ -67,9 +68,12 @@ public class RoomController : MonoSingleton<RoomController>
                 rooms[pos.x, pos.y].GetComponent<Room>().PlayerToEntrance(DIR.C, player);
                 currentRoom = rooms[pos.x, pos.y];
                 RoomSelected = true;
+                Map.Instance.CreateMap(pos, size);
             }
             yield return null;
         }
+
+
     }
 
     bool RoomExists(Vector2Int pos, DIR dir)
@@ -119,7 +123,8 @@ public class RoomController : MonoSingleton<RoomController>
             }
 
             GameObject newRoom = rooms[newPos.x, newPos.y];
-
+            currentPos = newPos;
+            Map.Instance.MoveMap(dir);
             if (newRoom.GetComponent<Room>().PlayerToEntrance(dir, player))
             {
                 newRoom.SetActive(true);

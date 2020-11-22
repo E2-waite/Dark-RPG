@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Door.cs" />
+    <Compile Include="Assets\Map.cs" />
     <Compile Include="Assets\Scripts\AnimDestroy.cs" />
     <Compile Include="Assets\Scripts\Arrow.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
