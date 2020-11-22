@@ -41,7 +41,7 @@ public class Interaction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Collider")
+        if (collision.gameObject.tag == "PlayerCol")
         {
             if (active)
             {
@@ -53,7 +53,7 @@ public class Interaction : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Collider")
+        if (collision.gameObject.tag == "PlayerCol")
         {
             E.SetActive(false);
             collision.transform.parent.gameObject.GetComponent<PlayerController>().interaction = null;

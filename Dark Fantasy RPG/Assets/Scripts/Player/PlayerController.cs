@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
             anim[i].SetFloat("Vertical", move_y);
             anim[i].SetFloat("Speed", speed / 30);
         }
-        WalkAnim();
+        RepositionCol();
         if (!dead && !bow)
         {
             Move();
@@ -150,23 +150,26 @@ public class PlayerController : MonoBehaviour
         {
             if (mousePos.x < 0)
             {
-                anim[0].SetInteger("Direction", 3);
+                dir = 3;
+                anim[0].SetInteger("Direction", dir);
             }
             if (mousePos.x > 0)
             {
-                anim[0].SetInteger("Direction", 1);
+                dir = 1;
+                anim[0].SetInteger("Direction", dir);
             }
         }
         if (!horizontal)
         {
             if (mousePos.y < 0)
             {
-
-                anim[0].SetInteger("Direction", 2);
+                dir = 2;
+                anim[0].SetInteger("Direction", dir);
             }
             if (mousePos.y > 0)
             {
-                anim[0].SetInteger("Direction", 0);
+                dir = 0;
+                anim[0].SetInteger("Direction", dir);
             }
         }
     }
@@ -227,28 +230,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void WalkAnim()
+    void RepositionCol()
     {
-
-        if (move_x > 0.5f)
-        {
-            dir = 1;
-            collider_obj.transform.localPosition = new Vector3(0.3f, 0, 0);
-        }
-        else if (move_x < -0.5f)
-        {
-            dir = 3;
-            collider_obj.transform.localPosition = new Vector3(-0.3f, 0, 0);
-        }
-        else if (move_y > 0.5f)
+        if (dir == 0)
         {
             dir = 0;
             collider_obj.transform.localPosition = new Vector3(0, 0.3f, 0);
         }
-        else if (move_y < -0.5f)
+        else if (dir == 1)
+        {
+            dir = 1;
+            collider_obj.transform.localPosition = new Vector3(0.3f, 0, 0);
+        }
+        else if (dir == 2)
         {
             dir = 2;
             collider_obj.transform.localPosition = new Vector3(0, -0.3f, 0);
+        }
+        else if (dir == 3)
+        {
+            dir = 3;
+            collider_obj.transform.localPosition = new Vector3(-0.3f, 0, 0);
         }
     }
     

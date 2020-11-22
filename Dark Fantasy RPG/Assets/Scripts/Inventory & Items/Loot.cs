@@ -12,7 +12,7 @@ public class Loot : MonoBehaviour
     }
 
     public LOOT lootType;
-    public float moveSpeed = 5;
+    public float moveSpeed = 62;
     public int value = 1;
     public bool bounce = false;
     GameObject player;
@@ -38,7 +38,7 @@ public class Loot : MonoBehaviour
             dist = Vector3.Distance(transform.position, player.transform.position);
             if (lootType == LOOT.gold || (lootType == LOOT.health && NeedHealth()))
             {
-                if (dist < 1)
+                if (dist < 32)
                 {
                     transform.position = Vector3.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
                 }
@@ -48,9 +48,9 @@ public class Loot : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "PlayerCol")
         {
-            Inventory inv = collision.gameObject.GetComponent<Inventory>();
+            Inventory inv = collision.transform.parent.gameObject.GetComponent<Inventory>();
             switch (lootType)
             {
                 case LOOT.gold:

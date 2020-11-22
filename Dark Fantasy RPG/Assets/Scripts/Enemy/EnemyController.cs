@@ -18,10 +18,9 @@ public class EnemyController : MonoBehaviour
     public float damage = 25;
     public float startHealth = 100;
     public float currentHealth;
-    public float dist;
     public float attackCooldown = 1;
     public float speed = 1;
-    public float chaseDist = 5;
+    public float chaseDist = 128;
     public float knockback = 50;
     public int dir;
     float invTime = 0.25f;
@@ -29,10 +28,11 @@ public class EnemyController : MonoBehaviour
     SpriteRenderer sprite;
     bool attacked = false, dead = false;
     Mimic mimic;
-    public float AIDist = 1.5f;
+    public float AIDist = 16f;
     GameObject[] AI;
     void Start()
     {
+        player = RoomController.Instance.player;
         player = GameObject.FindGameObjectWithTag("Player");
         currentHealth = startHealth;
         anim = GetComponent<Animator>();
@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        dist = Vector3.Distance(transform.position, player.transform.position);
+
         anim.SetInteger("Direction", dir);
         SetDir();
 
@@ -55,7 +55,7 @@ public class EnemyController : MonoBehaviour
         {
             StartCoroutine(AttackRoutine());
         }
-        if (dist < chaseDist && GetDist(true) && !attacked && !dead && (type != TYPE.mimic || mimic.open))
+        if (!attacked && !dead)
         {
             anim.SetBool("Walking", true);
             Chase();
@@ -68,16 +68,18 @@ public class EnemyController : MonoBehaviour
 
     bool GetDist(bool greater)
     {
-        float hitDist = 0;
-        if (type == TYPE.melee)
+        float xDist = transform.position.x - player.transform.position.x;
+        float yDist = transform.position.y - player.transform.position.y;
+        if (xDist < 0)
         {
-            hitDist = 0.5f;
+            xDist = -xDist;
         }
-        if (type == TYPE.mimic)
+        if (yDist < 0)
         {
-            hitDist = 0.5f;
+            yDist = -yDist;
         }
-        if ((greater && dist >= hitDist) || (!greater && dist < hitDist))
+
+        if ((greater && xDist >= 1 && yDist >= 2) || (!greater && xDist < 32 && yDist < 20))
         {
             return true;
         }
@@ -86,8 +88,10 @@ public class EnemyController : MonoBehaviour
 
     void Chase()
     {
+        Debug.Log("CHASE");
         if (player != null)
         {
+
             Vector3 direction = player.transform.position - transform.position;
             direction = new Vector3(direction.x, direction.y, 0);
             transform.Translate(direction * (speed * Time.deltaTime));
@@ -167,7 +171,7 @@ public class EnemyController : MonoBehaviour
             yield break;
 
         }
-        rb.AddForce(force);
+        rb.AddForce(force * 32);
         yield return new WaitForSeconds(invTime);
         sprite.color = Color.white;
         hit = false;
@@ -194,11 +198,12 @@ public class EnemyController : MonoBehaviour
             for (int i = 0; i < num; i++)
             {
                 GameObject gold = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+                gold.transform.parent = transform.parent;
                 yield return new WaitForSeconds(0.2f);
             }
 
             GameObject healthObj = Instantiate(hOrbPrefab, transform.position, Quaternion.identity);
-
+            healthObj.transform.parent = transform.parent;
             Destroy(this.gameObject);
         }
     }

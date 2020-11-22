@@ -30,12 +30,15 @@ public class Chest : MonoBehaviour
         for (int i = 0; i < num; i++)
         {
             GameObject gold = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+            gold.transform.parent = transform.parent;
+            gold.GetComponent<LootArc>().arc = true;
             yield return new WaitForSeconds(0.2f);
         }
 
         for (int i = 0; i < items.Count; i++)
         {
             GameObject item = Instantiate(items[i], transform.position, Quaternion.identity);
+            item.transform.parent = transform.parent;
             item.GetComponent<LootArc>().arc = true;
         }
     }

@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 8171019440893784126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.61, z: 0}
-  m_LocalScale: {x: 64, y: 64, z: 1}
+  m_LocalScale: {x: 80, y: 80, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -121,8 +121,8 @@ MonoBehaviour:
   arc: 0
   expires: 1
   expiryTime: 10
-  distance: 3
-  move_speed: 100
+  distance: 32
+  move_speed: 1000
   max_height: 3
   min_height: 0.5
 --- !u!114 &3444193815916504488
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   lootType: 0
-  moveSpeed: 5
+  moveSpeed: 100
   value: 1
   bounce: 0
 --- !u!58 &-6942691993141977532
@@ -171,3 +171,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   update: 1
+  legs: 0

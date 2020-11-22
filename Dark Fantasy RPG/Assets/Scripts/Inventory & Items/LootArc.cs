@@ -9,8 +9,8 @@ public class LootArc : MonoBehaviour
     public float expiryTime = 10;
     Vector3 target, target_pos;
     int current_target = 0;
-    public float distance = 3;
-    public float move_speed = 100;
+    public float distance = 32;
+    public float move_speed = 500;
     public float max_height = 3, min_height = 0.5f;
     Vector3 point0, point1, point2;
     private int num_points = 100;
