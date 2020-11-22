@@ -139,7 +139,6 @@ public class PlayerController : MonoBehaviour
         {
             y = -y;
         }
-        Debug.Log(x.ToString() + y.ToString());
         bool horizontal = true;
 
         if (y > x)
@@ -149,10 +148,8 @@ public class PlayerController : MonoBehaviour
 
         if (horizontal)
         {
-            Debug.Log("Horizontal");
             if (mousePos.x < 0)
             {
-                Debug.Log("X - 1");
                 anim[0].SetInteger("Direction", 3);
             }
             if (mousePos.x > 0)
@@ -162,7 +159,6 @@ public class PlayerController : MonoBehaviour
         }
         if (!horizontal)
         {
-            Debug.Log("Vertical");
             if (mousePos.y < 0)
             {
 
@@ -213,7 +209,7 @@ public class PlayerController : MonoBehaviour
     void Move()
     {
             //transform.position = new Vector3(transform.position.x + ((move_x * speed) * Time.deltaTime), transform.position.y + ((move_y * speed) * Time.deltaTime), transform.position.z);
-        rb.velocity = new Vector2(move_x * speed, move_y * speed);
+        rb.MovePosition(new Vector2(transform.position.x + (move_x * speed), transform.position.y + (move_y * speed)));
 
         if (Input.GetKey(KeyCode.LeftShift))
         {

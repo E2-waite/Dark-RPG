@@ -63,19 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AnimDestroy.cs" />
-    <Compile Include="Assets\Arrow.cs" />
-    <Compile Include="Assets\CameraController.cs" />
-    <Compile Include="Assets\Chest.cs" />
-    <Compile Include="Assets\GameOver.cs" />
-    <Compile Include="Assets\Interaction.cs" />
-    <Compile Include="Assets\Mimic.cs" />
-    <Compile Include="Assets\ParticleManager.cs" />
-    <Compile Include="Assets\Particles.cs" />
-    <Compile Include="Assets\PathTiles.cs" />
-    <Compile Include="Assets\RoomController.cs" />
+    <Compile Include="Assets\Door.cs" />
+    <Compile Include="Assets\Scripts\AnimDestroy.cs" />
+    <Compile Include="Assets\Scripts\Arrow.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Chest.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyCollider.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Equipment.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Inventory.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Items.cs" />
@@ -83,14 +79,22 @@
     <Compile Include="Assets\Scripts\Inventory &amp; Items\LootArc.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\ObjManager.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Potion.cs" />
+    <Compile Include="Assets\Scripts\Mimic.cs" />
     <Compile Include="Assets\Scripts\MonoSingleton.cs" />
+    <Compile Include="Assets\Scripts\ParticleManager.cs" />
+    <Compile Include="Assets\Scripts\Particles.cs" />
+    <Compile Include="Assets\Scripts\PathTiles.cs" />
     <Compile Include="Assets\Scripts\Player\AttackCollider.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\Stats.cs" />
+    <Compile Include="Assets\Scripts\Rooms\GenerateMaze.cs" />
+    <Compile Include="Assets\Scripts\Rooms\Room.cs" />
+    <Compile Include="Assets\Scripts\Rooms\RoomController.cs" />
+    <Compile Include="Assets\Scripts\SetSortingLayer.cs" />
+    <Compile Include="Assets\Scripts\TextMeshOrder.cs" />
     <Compile Include="Assets\Scripts\UI\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UI\StatBar.cs" />
-    <Compile Include="Assets\SetSortingLayer.cs" />
-    <Compile Include="Assets\TextMeshOrder.cs" />
+    <Compile Include="Assets\Scripts\enums.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
