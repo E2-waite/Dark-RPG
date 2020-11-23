@@ -12,10 +12,6 @@ public class InventoryUI : MonoBehaviour
     void Start()
     {
         inventory = player.GetComponent<Inventory>();
-        foreach (Transform child in transform)
-        {
-            invSlots.Add(child.gameObject.GetComponent<Image>());
-        }
     }
 
     public void AddItem(int num, Item item)

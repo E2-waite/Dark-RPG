@@ -63,12 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Door.cs" />
-    <Compile Include="Assets\Map.cs" />
     <Compile Include="Assets\Scripts\AnimDestroy.cs" />
     <Compile Include="Assets\Scripts\Arrow.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Chest.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyCollider.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
@@ -80,6 +79,7 @@
     <Compile Include="Assets\Scripts\Inventory &amp; Items\LootArc.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\ObjManager.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Potion.cs" />
+    <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Mimic.cs" />
     <Compile Include="Assets\Scripts\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\ParticleManager.cs" />

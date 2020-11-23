@@ -29,7 +29,7 @@ public class RoomController : MonoSingleton<RoomController>
             {
                 if (maze[x,y])
                 {
-                    rooms[x, y] = Instantiate(roomPrefabs[Random.Range(0, roomPrefabs.Count - 1)], new Vector3(0, 0, 0), Quaternion.identity);
+                    rooms[x, y] = Instantiate(roomPrefabs[Random.Range(0, roomPrefabs.Count)], new Vector3(0, 0, 0), Quaternion.identity);
                     rooms[x, y].transform.name = "Room " + x.ToString() + " " + y.ToString();
                     rooms[x, y].GetComponent<Room>().pos = new Vector2Int(x, y);
                     rooms[x, y].SetActive(false);
