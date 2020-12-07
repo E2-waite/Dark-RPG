@@ -8,16 +8,16 @@ public class Inventory : MonoBehaviour
     InventoryUI invUI;
     public float gold = 0;
     int maxInv = 5;
-    Item[] slots;
-    List<Item> inventory = new List<Item>();
+    ITEM[] slots;
+    List<ITEM> inventory = new List<ITEM>();
 
     private void Start()
     {
         invUI = invObj.GetComponent<InventoryUI>();
-        slots = new Item[maxInv];
+        slots = new ITEM[maxInv];
     }
 
-    public bool AddItem(Item item)
+    public bool AddItem(ITEM item)
     {
         for (int i = 0; i < maxInv; i++)
         {

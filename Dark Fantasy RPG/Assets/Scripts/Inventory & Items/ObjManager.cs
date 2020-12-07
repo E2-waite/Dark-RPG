@@ -16,7 +16,7 @@ public class ObjManager : MonoSingleton<ObjManager>
         potion = GetComponent<Potion>();
     }
 
-    public bool Use(GameObject player, Item item)
+    public bool Use(GameObject player, ITEM item)
     {
         switch (item.type)
         {
@@ -29,7 +29,7 @@ public class ObjManager : MonoSingleton<ObjManager>
         return false;
     }
 
-    bool ConsumePotion(GameObject player, Item item)
+    bool ConsumePotion(GameObject player, ITEM item)
     {
         Stats stats = player.GetComponent<Stats>();
         switch (item.potionType)

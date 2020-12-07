@@ -30,7 +30,7 @@ namespace Items
         armour
     }
 
-    public class Item
+    public class ITEM
     {
         public ITEMTYPE type;
         public POTION potionType;

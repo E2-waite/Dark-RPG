@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
             anim[i].SetFloat("Speed", speed / 30);
         }
         RepositionCol();
-        if (!dead && !bow)
+        if (!dead)
         {
             Move();
         }
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButton(1))
         {
-            anim[0].SetBool("Bow", true);
+            combatState = Equipment.bow;
             bow = true;
             if (Input.GetMouseButton(0) && bowCooldown <= 0)
             {
@@ -106,10 +106,15 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            anim[0].SetBool("Bow", false);
             bow = false;
-            anim[0].SetBool("Charge", false);
-            bowCharging = false;
+            if (currCombatTime  > 0)
+            {
+                combatState = Equipment.sword;
+            }
+            else
+            {
+                combatState = Equipment.unarmed;
+            }
         }
 
         GetMouseDir();
@@ -206,6 +211,14 @@ public class PlayerController : MonoBehaviour
                 anim[0].SetLayerWeight(4, 1);
             }
         }
+        if (combatState == Equipment.bow)
+        {
+            anim[0].SetLayerWeight(1, 0);
+            anim[0].SetLayerWeight(2, 0);
+            anim[0].SetLayerWeight(3, 0);
+            anim[0].SetLayerWeight(4, 0);
+            anim[0].SetLayerWeight(5, 1);
+        }
     }
 
     void Move()
@@ -285,8 +298,10 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
         currCombatTime = 0;
-
-        combatState = Equipment.unarmed;
+        if (combatState == Equipment.sword)
+        {
+            combatState = Equipment.unarmed;
+        }
     }
 
     void Hit()
@@ -317,7 +332,7 @@ public class PlayerController : MonoBehaviour
     {
         if (interaction != null)
         {
-            interaction.GetComponent<Interaction>().Interact();
+            interaction.GetComponent<Interaction>().Interact(gameObject);
         }
     }
 

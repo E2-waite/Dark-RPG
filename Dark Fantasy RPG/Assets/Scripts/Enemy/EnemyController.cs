@@ -88,7 +88,6 @@ public class EnemyController : MonoBehaviour
 
     void Chase()
     {
-        Debug.Log("CHASE");
         if (player != null)
         {
 

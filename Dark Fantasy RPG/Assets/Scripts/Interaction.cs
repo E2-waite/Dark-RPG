@@ -13,16 +13,16 @@ public class Interaction : MonoBehaviour
     }
 
     bool active = true;
-    public GameObject E;
+    public GameObject display;
     public INTERACTION type;
 
-    public bool Interact()
+    public bool Interact(GameObject player)
     {
         if (type == INTERACTION.chest)
         {
             if (GetComponent<Chest>().Open())
             {
-                E.SetActive(false);
+                display.SetActive(false);
                 active = false;
                 return true;
             }
@@ -31,7 +31,16 @@ public class Interaction : MonoBehaviour
         {
             if (GetComponent<Mimic>().Open())
             {
-                E.SetActive(false);
+                display.SetActive(false);
+                active = false;
+                return true;
+            }
+        }
+        if (type == INTERACTION.shop)
+        {
+            if (GetComponent<Shop>().Buy(player))
+            {
+                display.SetActive(false);
                 active = false;
                 return true;
             }
@@ -39,13 +48,14 @@ public class Interaction : MonoBehaviour
         return false;
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "PlayerCol")
         {
             if (active)
             {
-                E.SetActive(true);
+                display.SetActive(true);
                 collision.transform.parent.gameObject.GetComponent<PlayerController>().interaction = gameObject;
             }
         }
@@ -55,7 +65,7 @@ public class Interaction : MonoBehaviour
     {
         if (collision.gameObject.tag == "PlayerCol")
         {
-            E.SetActive(false);
+            display.SetActive(false);
             collision.transform.parent.gameObject.GetComponent<PlayerController>().interaction = null;
         }
     }

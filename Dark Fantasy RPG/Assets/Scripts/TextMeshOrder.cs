@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 
 /// <summary>
 /// Place on a 3D object to modify its visibility relative to Sprite 'sorting

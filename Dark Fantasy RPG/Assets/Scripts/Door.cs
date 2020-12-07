@@ -19,7 +19,6 @@ public class Door : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("DOOR TRIGGER");
             RoomController.Instance.ChangeRoom(dir);
         }
     }

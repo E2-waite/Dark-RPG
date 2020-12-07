@@ -14,7 +14,7 @@ public class InventoryUI : MonoBehaviour
         inventory = player.GetComponent<Inventory>();
     }
 
-    public void AddItem(int num, Item item)
+    public void AddItem(int num, ITEM item)
     {
         invSlots[num].enabled = true;
         invSlots[num].sprite = item.sprite;

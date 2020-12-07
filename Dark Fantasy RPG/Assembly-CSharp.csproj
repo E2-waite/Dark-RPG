@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Scripts\AnimDestroy.cs" />
     <Compile Include="Assets\Scripts\Arrow.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Scripts\UI\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UI\StatBar.cs" />
     <Compile Include="Assets\Scripts\enums.cs" />
+    <Compile Include="Assets\Shop.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
