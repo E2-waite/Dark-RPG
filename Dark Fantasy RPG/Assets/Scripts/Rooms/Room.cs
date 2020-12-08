@@ -11,6 +11,7 @@ public class Room : MonoBehaviour
     bool[] roomDirs = new bool[4];
     public Transform startPos;
     public Transform[] entrancePos = new Transform[4];
+    public Collider2D wallCollider;
 
     // Update is called once per frame
     void Update()
@@ -23,8 +24,6 @@ public class Room : MonoBehaviour
 
     public bool PlayerToEntrance(DIR dir, GameObject player)
     {
-        player.transform.parent = null;
-        player.transform.parent = transform;
         if (dir == DIR.N)
         {
             player.transform.position = entrancePos[(int)DIR.S].position;

@@ -121,7 +121,7 @@ MonoBehaviour:
   arc: 0
   expires: 1
   expiryTime: 10
-  distance: 32
+  distance: 64
   move_speed: 1000
   max_height: 3
   min_height: 0.5

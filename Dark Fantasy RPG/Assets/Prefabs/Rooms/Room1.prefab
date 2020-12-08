@@ -581,6 +581,7 @@ MonoBehaviour:
   - {fileID: 255645983252386727}
   - {fileID: 1267449604387165478}
   - {fileID: 9071884498307490368}
+  wallCollider: {fileID: 3422145356849216066}
 --- !u!1 &3422145357430942457
 GameObject:
   m_ObjectHideFlags: 0

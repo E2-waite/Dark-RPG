@@ -30,7 +30,7 @@ public class Shop : MonoBehaviour
         Item itemInst = itemObj.GetComponent<Item>();
         if (inv.gold >= cost && inv.AddItem(itemInst.item))
         {
-            inv.gold -= itemInst.item.value;
+            inv.gold -= cost;
             Destroy(gameObject);
             return true;
         }

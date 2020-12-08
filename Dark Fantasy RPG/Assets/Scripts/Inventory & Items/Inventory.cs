@@ -6,7 +6,7 @@ public class Inventory : MonoBehaviour
 {
     public GameObject invObj;
     InventoryUI invUI;
-    public float gold = 0;
+    public int gold = 0;
     int maxInv = 5;
     ITEM[] slots;
     List<ITEM> inventory = new List<ITEM>();
@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour
 
     public void UseItem(int num)
     {
-        if (num < maxInv && slots[num] != null && ObjManager.Instance.Use(gameObject, slots[num]))
+        if (num < maxInv && slots[num] != null && ItemManager.Instance.Use(gameObject, slots[num]))
         {
             slots[num] = null;
             invUI.RemoveItem(num);

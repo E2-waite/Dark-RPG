@@ -7,33 +7,45 @@ public class LootArc : MonoBehaviour
     public bool arc = false;
     public bool expires = true;
     public float expiryTime = 10;
-    Vector3 target, target_pos;
+    Vector2 target, target_pos;
     int current_target = 0;
-    public float distance = 32;
+    public float distance = 64;
     public float move_speed = 500;
     public float max_height = 3, min_height = 0.5f;
-    Vector3 point0, point1, point2;
+    Vector2 startPos, middlePos, endPos;
     private int num_points = 100;
-    private Vector3[] positions;
+    private Vector2[] positions;
     bool landed = false;
-
+    bool start = false;
 
     private void Start()
     {
-        target = new Vector3(transform.position.x + Random.Range(-distance, distance), transform.position.y + Random.Range(-distance / 3, distance / 3));
-        positions = new Vector3[num_points];
-        point0 = transform.position;
-        Vector3 difference = point2 - point0;
-        Vector3 center = point0 + difference * 0.5f;
-        point1 = new Vector2(center.x, target.y + Random.Range(min_height, max_height));
-        point2 = target;
+        StartCoroutine(SetupRoutine());
+    }
+
+    IEnumerator SetupRoutine()
+    {
+        bool clearTarget = false;
+        while (!clearTarget)
+        {
+            target = new Vector2(transform.position.x + Random.Range(-distance, distance), transform.position.y + Random.Range(-distance / 3, distance / 3));
+            Debug.Log(target.ToString());
+            if (!RoomController.Instance.currentRoom.GetComponent<Room>().wallCollider.OverlapPoint(target))
+            {
+                clearTarget = true;
+            }
+            yield return null;
+        }
+        positions = new Vector2[num_points];
+        startPos = transform.position;
+        endPos = target;
+
         if (expires)
         {
             StartCoroutine(Expire());
         }
+        start = true;
     }
-
-
 
     IEnumerator Expire()
     {
@@ -43,22 +55,23 @@ public class LootArc : MonoBehaviour
 
     private void Update()
     {
-        if (!landed && arc)
+        if (!landed && arc && start)
         {
-
+            float diff = endPos.x - startPos.x;
+            Vector2 middlePos = new Vector2(startPos.x + (diff * 0.5f), transform.position.y + 3);
 
             DrawQuadraticCurve();
             target_pos = positions[current_target];
             transform.position = Vector3.MoveTowards(transform.position, target_pos, move_speed * Time.deltaTime);
 
-            if (transform.position == target_pos && current_target < num_points)
+            if ((Vector2)transform.position == target_pos && current_target < num_points)
             {
                 current_target++;
             }
         }
 
 
-        if (transform.position == target)
+        if ((Vector2)transform.position == target)
         {
             landed = true;
         }
@@ -69,16 +82,16 @@ public class LootArc : MonoBehaviour
         for (int i = 1; i < num_points + 1; i++)
         {
             float t = i / (float)num_points;
-            positions[i - 1] = CalculateQuadraticBezierPoint(t, point0, point1, point2);
+            positions[i - 1] = CalculateQuadraticBezierPoint(t, startPos, middlePos, endPos);
         }
     }
 
-    private Vector3 CalculateQuadraticBezierPoint(float t, Vector3 p0, Vector3 p1, Vector3 p2)
+    private Vector2 CalculateQuadraticBezierPoint(float t, Vector2 p0, Vector2 p1, Vector2 p2)
     {
         float u = 1 - t;
         float tt = t * t;
         float uu = u * u;
-        Vector3 p = uu * p0;
+        Vector2 p = uu * p0;
         p += 2 * u * t * p1;
         p += tt * p2;
         return p;

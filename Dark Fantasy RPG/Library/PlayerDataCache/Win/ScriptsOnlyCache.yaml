@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - Interaction
     - Inventory
     - InventoryUI
+    - Item
     - Loot
     - LootArc
     - Map
@@ -25,6 +26,7 @@ ScriptsOnlyBuild:
     - Room
     - RoomController
     - SetSortingLayer
+    - Shop
     - StatBar
     - Stats
     - TextMeshOrder
@@ -32,8 +34,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -119,49 +119,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12188}
     - Class: 114
-      Script: {instanceID: 12366}
+      Script: {instanceID: 12332}
     - Class: 114
-      Script: {instanceID: 12492}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12638}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 12660}
+      Script: {instanceID: 12640}
     - Class: 114
-      Script: {instanceID: 13032}
+      Script: {instanceID: 12662}
     - Class: 114
-      Script: {instanceID: 13122}
+      Script: {instanceID: 13034}
     - Class: 114
       Script: {instanceID: 13124}
     - Class: 114
-      Script: {instanceID: 13438}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13552}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13554}
     - Class: 114
-      Script: {instanceID: 13726}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 13818}
+      Script: {instanceID: 13728}
     - Class: 114
-      Script: {instanceID: 13868}
+      Script: {instanceID: 13820}
     - Class: 114
-      Script: {instanceID: 13920}
+      Script: {instanceID: 13870}
     - Class: 114
-      Script: {instanceID: 13970}
+      Script: {instanceID: 13922}
     - Class: 114
-      Script: {instanceID: 14040}
+      Script: {instanceID: 13972}
     - Class: 114
-      Script: {instanceID: 14138}
+      Script: {instanceID: 14012}
     - Class: 114
-      Script: {instanceID: 14234}
+      Script: {instanceID: 14044}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14142}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14238}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 14298}
     - Class: 114
-      Script: {instanceID: 14394}
+      Script: {instanceID: 14300}
+    - Class: 114
+      Script: {instanceID: 14372}
+    - Class: 114
+      Script: {instanceID: 14398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -465,6 +469,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 639fd7d7957fc140fcc48a858b29a813
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Item
+  - hash:
+      serializedVersion: 2
       Hash: a31644780082ad9bf1e1ad28cfceb3f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -507,7 +517,7 @@ ScriptsOnlyBuild:
     className: PlayerController
   - hash:
       serializedVersion: 2
-      Hash: 8b28d9a2fb064a31e99357ba53317780
+      Hash: 58f39746aa043c58fcd2c6ca5ae73d33
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Interaction
@@ -709,6 +719,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Stats
+  - hash:
+      serializedVersion: 2
+      Hash: 22df0a8910ced5b0474a8f42d5fe6dc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shop
   - hash:
       serializedVersion: 2
       Hash: 53ba1e1e7fc1f845f0052258ded235f8

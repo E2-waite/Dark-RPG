@@ -75,10 +75,10 @@
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Equipment.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventory &amp; Items\ItemManager.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Items.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Loot.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\LootArc.cs" />
-    <Compile Include="Assets\Scripts\Inventory &amp; Items\ObjManager.cs" />
     <Compile Include="Assets\Scripts\Inventory &amp; Items\Potion.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Mimic.cs" />
